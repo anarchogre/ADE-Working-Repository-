@@ -1,0 +1,13 @@
+{
+  "object_types": {
+    "OBS": "Observation",
+    "PAT": "Pattern",
+    "PRI": "Principle",
+    "STR": "Strength",
+    "INT": "Intervention",
+    "DEC": "De-escalation",
+    "CON": "Construct (candidate)",
+    "TE": "Teaching Episode (candidate)"
+  },
+  "flow": "Observation -> Pattern -> Principle -> Intervention -> Outcome"
+}

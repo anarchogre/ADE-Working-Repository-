@@ -1,0 +1,36 @@
+{
+  "preservation_point": "PP-0007",
+  "status": "Major Structural Preservation",
+  "timestamp_utc": "2026-07-23T16:42:40Z",
+  "summary": {
+    "constitutional_amendments": [
+      "CA-0003",
+      "CA-0004"
+    ],
+    "new_domains": [
+      "Assessment Sciences (expanded)",
+      "Intervention Sciences",
+      "Behavioral Science Frameworks",
+      "Decision Support",
+      "Activity Sciences"
+    ],
+    "new_specifications": [
+      "SPEC-5011",
+      "SPEC-5012",
+      "SPEC-5013",
+      "SPEC-5014",
+      "SPEC-5015"
+    ],
+    "major_additions": [
+      "COM-B",
+      "Fogg Behavior Model",
+      "Behavior Change Wheel",
+      "Dark Triad/Tetrad support",
+      "DSM-informed screening architecture",
+      "MBTI registry support",
+      "HSP/SPS framework",
+      "Analog mindfulness and focus library",
+      "Convergent Evidence Principle"
+    ]
+  }
+}

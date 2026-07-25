@@ -1,0 +1,16 @@
+{
+  "preservation_point": "PP-0056",
+  "type": "Minor",
+  "timestamp_utc": "2026-07-23T12:34:08Z",
+  "status": "Adopted",
+  "purpose": "Transition from planning to execution.",
+  "canonical_corpus": "AKS_AOS_Repository.json",
+  "adopted_rules": [
+    "Read everything provided.",
+    "Observation before interpretation.",
+    "Repository JSON is the primary evidence corpus.",
+    "Preserve provenance.",
+    "Delay normalization until traversal is complete."
+  ],
+  "next_action": "Begin exhaustive sequential traversal of AKS_AOS_Repository.json."
+}

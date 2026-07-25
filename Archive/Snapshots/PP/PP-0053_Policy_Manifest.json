@@ -1,0 +1,23 @@
+{
+  "workflow_passes": [
+    "Pass 1 Recovery",
+    "Pass 2 Canonicalization",
+    "Pass 3 Longitudinal Validation",
+    "Pass 4 Structural Linking",
+    "Pass 5 Repository Refinement"
+  ],
+  "planned_metadata": [
+    "Observation ID",
+    "Domains",
+    "Evidence count",
+    "First occurrence",
+    "Latest confirmation",
+    "Confidence",
+    "Environmental modifiers",
+    "Trajectory",
+    "Related strengths",
+    "Related interventions",
+    "Running questions",
+    "Provenance"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "PP-0006",
+  "title": "First-Pass Knowledge Model Complete",
+  "status": "Major Preservation Point",
+  "repository_maturity": "K1",
+  "includes": [
+    "Knowledge Graph Model",
+    "Entity Semantics",
+    "Relationship Semantics",
+    "Observation Promotion",
+    "Contradiction Management",
+    "Hypothesis Lifecycle",
+    "Evidence Sufficiency",
+    "Temporal Semantics",
+    "State Transitions",
+    "Event Model",
+    "Governance Framework"
+  ],
+  "next_phase": "Execution Services and Query Architecture"
+}

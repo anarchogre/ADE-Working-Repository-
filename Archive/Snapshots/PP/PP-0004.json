@@ -1,0 +1,28 @@
+{
+  "preservation_point": "PP-0004",
+  "title": "Governance Transition Baseline",
+  "status": "Major",
+  "repository_maturity": "C1",
+  "phase": "AKS Phase II",
+  "frozen_decisions": [
+    "Architectural Freeze",
+    "Specification-first development",
+    "Normative specification standard",
+    "Constitutional review requirement",
+    "Five-domain architecture",
+    "Specification vs Reference Implementation separation",
+    "Referential Stability",
+    "Single Responsibility",
+    "No Hidden Behavior",
+    "Deterministic Execution",
+    "Constitutional Priority",
+    "Successor-only evolution"
+  ],
+  "kernel_state": {
+    "SPEC-0003": "Draft reviewed; amendments pending",
+    "SPEC-0004": "Draft",
+    "SPEC-0005": "Planned",
+    "SPEC-0006": "Planned"
+  },
+  "next_action": "Finalize SPEC-0003 v1.0.1"
+}

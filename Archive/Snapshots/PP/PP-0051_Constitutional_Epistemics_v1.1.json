@@ -1,0 +1,56 @@
+{
+  "preservation_point": "PP-0051",
+  "version": "v1.1",
+  "status": "Frozen",
+  "scope": {
+    "principles": [
+      "AP-001",
+      "AP-002",
+      "AP-003",
+      "AP-004",
+      "AP-005",
+      "AP-006",
+      "AP-007"
+    ],
+    "core": [
+      "AKS-CORE-0007",
+      "0008",
+      "0009",
+      "0010",
+      "0011",
+      "0012"
+    ],
+    "integrity": [
+      "AKS-INT-0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006"
+    ],
+    "constitution": [
+      "AKS-CON-0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006",
+      "0007"
+    ],
+    "theory": [
+      "AKS-THEORY-0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005"
+    ],
+    "design": [
+      "AKS-DESIGN-0001",
+      "0002",
+      "0003",
+      "0004",
+      "0005"
+    ]
+  },
+  "adoption_policy": "Future work branches from this checkpoint."
+}

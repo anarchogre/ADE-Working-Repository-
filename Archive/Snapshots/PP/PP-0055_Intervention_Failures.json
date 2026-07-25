@@ -1,0 +1,46 @@
+{
+  "schema": "FAIL v0.1",
+  "purpose": "Capture interventions that were ineffective, inconsistent, or counterproductive.",
+  "fields": [
+    "FAIL ID",
+    "Intervention",
+    "Context",
+    "Observed response",
+    "Failure type",
+    "Possible reason",
+    "Counterexamples",
+    "Subsequent successful alternative",
+    "Confidence",
+    "Provenance"
+  ],
+  "failure_types": [
+    "No effect",
+    "Partial effect",
+    "Escalated behavior",
+    "Worked only in specific contexts",
+    "Lost effectiveness over time"
+  ],
+  "initial_examples": [
+    {
+      "id": "FAIL-0001",
+      "intervention": "Direct commands for low-interest tasks",
+      "observed_response": "Frequently poor engagement or resistance",
+      "alternative": "Collaborative challenge framing",
+      "confidence": "High"
+    },
+    {
+      "id": "FAIL-0002",
+      "intervention": "Concept-free rote instruction",
+      "observed_response": "Reduced engagement compared with conceptual explanation",
+      "alternative": "Explain underlying mechanism first",
+      "confidence": "Moderate"
+    },
+    {
+      "id": "FAIL-0003",
+      "intervention": "Highly stimulating screen-based learning",
+      "observed_response": "Did not consistently translate into real-world learning",
+      "alternative": "Concrete hands-on learning",
+      "confidence": "Moderate"
+    }
+  ]
+}

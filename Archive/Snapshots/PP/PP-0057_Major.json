@@ -1,0 +1,58 @@
+{
+  "preservation_point": "PP-0057",
+  "type": "Major",
+  "status": "Repository Architecture Consolidation",
+  "implemented_layers": {
+    "Evidence": [
+      "OBS",
+      "TE",
+      "FAIL"
+    ],
+    "Analysis": [
+      "PAT",
+      "PRI",
+      "STR",
+      "CTX",
+      "ENV",
+      "ALT",
+      "GAP",
+      "QST"
+    ],
+    "Practice": [
+      "INT",
+      "DEC",
+      "OUT",
+      "BUR",
+      "RES"
+    ],
+    "Longitudinal": [
+      "TRN",
+      "TRAJ"
+    ],
+    "Governance": [
+      "DECLOG",
+      "REL",
+      "DEF",
+      "Provenance",
+      "Confidence Profile",
+      "Revision Trigger",
+      "Traceability"
+    ]
+  },
+  "governing_principles": [
+    "Observation before interpretation",
+    "Context is evidence",
+    "Negative results are first-class evidence",
+    "Knowledge should never be duplicated",
+    "Separate competence from performance",
+    "Recommendations should be resource-aware",
+    "Development is represented through trajectories"
+  ],
+  "next_phase": [
+    "Populate canonical definitions",
+    "Recover archived observations",
+    "Link evidence with relationships",
+    "Build traceable handbook chapters",
+    "Validate interventions longitudinally"
+  ]
+}

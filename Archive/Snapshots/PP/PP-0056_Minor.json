@@ -1,0 +1,28 @@
+{
+  "preservation_point": "PP-0056",
+  "type": "Minor",
+  "new_objects_adopted": [
+    "CTX (Context Modifier)",
+    "ENV (Environmental Modifier)",
+    "BUR (Caregiver Burden)"
+  ],
+  "candidate_objects": [
+    "ALT (Alternative Explanation)",
+    "OUT (Outcome)",
+    "TRN (Developmental Transition)",
+    "QST (Running Question)",
+    "GAP (Evidence Gap)"
+  ],
+  "new_principles": [
+    "Context is evidence.",
+    "Negative results are first-class evidence.",
+    "Development should be represented through trajectories.",
+    "Separate competence from performance."
+  ],
+  "next_focus": [
+    "Recover transition events",
+    "Catalog evidence gaps",
+    "Extract caregiver burden observations",
+    "Promote validated candidate objects"
+  ]
+}

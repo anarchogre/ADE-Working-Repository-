@@ -1,0 +1,21 @@
+{
+  "new_candidates": [
+    "OBS-0016",
+    "OBS-0017",
+    "OBS-0018",
+    "OBS-0019",
+    "OBS-0020",
+    "OBS-0021"
+  ],
+  "strengths": [
+    "STR-0002",
+    "STR-0003",
+    "STR-0004",
+    "STR-0005"
+  ],
+  "syntheses": [
+    "SYN-0001",
+    "SYN-0002",
+    "META-0001"
+  ]
+}

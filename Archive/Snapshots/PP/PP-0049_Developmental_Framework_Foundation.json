@@ -1,0 +1,26 @@
+{
+  "preservation_point": "PP-0049",
+  "title": "Developmental Framework Foundation",
+  "trigger": "Completion of Observation Language and Developmental Domains campaigns.",
+  "adopted": [
+    "DR-001 Observation Grammar",
+    "DR-002 Observation Vocabulary",
+    "DR-003 Behavioral Episodes",
+    "DR-004 Observer Separation",
+    "DR-005 Developmental Domain Architecture",
+    "DR-006 Cross-Domain Behavior",
+    "DR-007 Developmental Profiles",
+    "DR-008 Strength Architecture"
+  ],
+  "observations": [
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "status": "Ready for Developmental Constructs"
+}

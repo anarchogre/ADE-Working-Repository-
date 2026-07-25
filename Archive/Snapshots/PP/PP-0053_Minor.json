@@ -1,0 +1,16 @@
+{
+  "preservation_point": "PP-0053",
+  "type": "Minor",
+  "status": "Adopted",
+  "purpose": "Repository policy refinement checkpoint",
+  "adopted_policies": [
+    "Accuracy before speed.",
+    "Structure before optimization.",
+    "Recovery -> Canonicalization -> Longitudinal Validation -> Structural Linking -> Repository Refinement workflow.",
+    "Observation Database is the canonical evidence layer.",
+    "Derived documents are generated views over canonical evidence.",
+    "Repository facts remain separate from repository hypotheses.",
+    "Each observation accumulates provenance, support count, confidence, trajectory, and cross-links over time."
+  ],
+  "next_phase": "Continue sequential parsing of remaining library and Master Conversations."
+}

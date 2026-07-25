@@ -1,0 +1,18 @@
+{
+  "runtime_manifest_version": "5.0",
+  "pp": "PP-0007",
+  "generated_utc": "2026-07-23T16:42:40Z",
+  "files": [
+    "PP-0007.json",
+    "Repository_State_PP0007.json",
+    "Runtime_Manifest_v5.0.json",
+    "CA-0003.json",
+    "CA-0004.json",
+    "SPEC-5011_v1.0.0.json",
+    "SPEC-5012_v1.0.0.json",
+    "SPEC-5013_v1.0.0.json",
+    "SPEC-5014_v1.0.0.json",
+    "SPEC-5015_v1.0.0.json",
+    "PP-0007_Bundle_Manifest.json"
+  ]
+}

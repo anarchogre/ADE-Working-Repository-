@@ -1,0 +1,21 @@
+{
+  "preservation_point": "PP-0048",
+  "title": "Conservative Synthesis and Roadmap Integration",
+  "trigger": "Completion of strategic integration model and validation-queue architecture.",
+  "adopted": [
+    "AP-002 Functional Neutrality",
+    "AP-003 Conservative Synthesis",
+    "RR-013 Validation Queue",
+    "RR-014 Architectural Regression Testing",
+    "RR-015 Progressive Integration",
+    "RR-016 Architectural Stability Index"
+  ],
+  "roadmap": {
+    "phase6": "Developmental Reasoning Framework",
+    "phase7": "Evidence & Screening Framework",
+    "phase8": "Adaptive Intervention Framework",
+    "phase9": "Knowledge Accumulation",
+    "phase10": "Decision Support"
+  },
+  "principle": "Integrate and synthesize; never replace validated architecture."
+}

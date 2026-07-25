@@ -1,0 +1,12 @@
+{
+  "bundle": "PP-0006",
+  "files": [
+    "PP-0006.json",
+    "SPEC-2010_v1.0.0.json",
+    "SPEC-GOV-0001.json",
+    "Repository_State_PP0006.json",
+    "Runtime_Manifest_v4.0.json",
+    "Execution_Queue_PP0006.json",
+    "PP-0006_Bundle_Manifest.json"
+  ]
+}

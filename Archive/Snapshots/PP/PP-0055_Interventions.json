@@ -1,0 +1,43 @@
+{
+  "schema": "INT/DEC draft v0.1",
+  "confidence_levels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "INT_examples": [
+    {
+      "id": "INT-0001",
+      "title": "Collaborative challenge framing",
+      "confidence": "B"
+    },
+    {
+      "id": "INT-0002",
+      "title": "Concept before task",
+      "confidence": "B"
+    },
+    {
+      "id": "INT-0003",
+      "title": "Concrete demonstration before vocabulary",
+      "confidence": "A"
+    },
+    {
+      "id": "INT-0004",
+      "title": "Predictable emotionally safe routines",
+      "confidence": "A"
+    },
+    {
+      "id": "INT-0005",
+      "title": "Reduce high stimulation screens",
+      "confidence": "B"
+    }
+  ],
+  "DEC_examples": [
+    "Transition warnings",
+    "First-Then framing",
+    "Calm prompts",
+    "Offer meaningful choices",
+    "Reconnect before correcting",
+    "Curiosity over confrontation"
+  ]
+}

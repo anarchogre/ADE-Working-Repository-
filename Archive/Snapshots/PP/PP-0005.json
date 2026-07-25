@@ -1,0 +1,27 @@
+{
+  "id": "PP-0005",
+  "title": "Runtime Foundation Complete",
+  "status": "Major Preservation Point",
+  "repository_maturity": "C2",
+  "includes": [
+    "Constitutional Kernel",
+    "Runtime Foundation",
+    "Governance Objects",
+    "Runtime Manifests"
+  ],
+  "runtime_specs": [
+    "SPEC-1001",
+    "SPEC-1002",
+    "SPEC-1003",
+    "SPEC-1004",
+    "SPEC-1005"
+  ],
+  "governance_objects": [
+    "REV",
+    "VAL",
+    "INT",
+    "CNF",
+    "PP"
+  ],
+  "next_phase": "Knowledge Model and Execution Services"
+}

@@ -1,0 +1,15 @@
+{
+  "preservation_point": "PP-0055",
+  "title": "Repository Corpus Ingestion",
+  "status": "Frozen",
+  "trigger": "AKS_AOS_Repository.json accepted as primary evidence corpus.",
+  "source": "AKS_AOS_Repository.json",
+  "policies": [
+    "Exhaustive traversal",
+    "Observation before interpretation",
+    "Latest governing documents take precedence",
+    "Preserve provenance",
+    "No sampling"
+  ],
+  "next_operation": "Complete forensic traversal of repository conversation."
+}
