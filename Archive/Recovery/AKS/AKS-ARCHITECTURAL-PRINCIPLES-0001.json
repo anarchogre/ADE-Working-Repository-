@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-ARCHITECTURAL-PRINCIPLES-0001",
+    "version": "0.1-foundation-draft",
+    "principles": [
+      "Canonical knowledge is stored once and rendered many ways.",
+      "Identity belongs to knowledge, not its representations.",
+      "The proposition is the smallest semantically complete unit of canonical knowledge.",
+      "Build downward. Depend upward.",
+      "No accepted architectural decision remains unpreserved beyond its architectural unit."
+    ]
+  }
+}

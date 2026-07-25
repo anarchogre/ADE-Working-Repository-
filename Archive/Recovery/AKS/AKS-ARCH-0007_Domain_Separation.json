@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "identifier": "AKS-ARCH-0007",
+    "title": "Architectural Domain Separation",
+    "status": "Adopted",
+    "domains": {
+      "Structure": [
+        "Entities",
+        "Propositions",
+        "Concepts",
+        "Relationships",
+        "Evidence"
+      ],
+      "Behavior": [
+        "Pipeline",
+        "Validation",
+        "Rendering",
+        "Round-trip Testing"
+      ],
+      "Governance": [
+        "Rules",
+        "Decisions",
+        "Audits",
+        "Preservation",
+        "Gates"
+      ]
+    }
+  }
+}

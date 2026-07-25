@@ -1,0 +1,19 @@
+{
+  "queue": [
+    "Proposal",
+    "Compatibility Review",
+    "Dependency Analysis",
+    "Integration Design",
+    "Validation",
+    "Canonical Adoption"
+  ],
+  "regression_checks": [
+    "Governance",
+    "Invariants",
+    "Prior observations",
+    "Circular reasoning",
+    "Traceability",
+    "Explainability",
+    "Supersession"
+  ]
+}

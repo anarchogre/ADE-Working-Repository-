@@ -1,0 +1,11 @@
+{
+  "version": "v2.1",
+  "contract": {
+    "inputs": "Declared",
+    "operations": "Permitted operations only",
+    "assumptions": "Explicit",
+    "unknowns": "Preserved",
+    "counterfactuals": "Required for significant conclusions",
+    "outputs": "Explainable and traceable"
+  }
+}

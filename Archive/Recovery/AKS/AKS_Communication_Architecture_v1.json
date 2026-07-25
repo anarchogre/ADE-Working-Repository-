@@ -1,0 +1,36 @@
+{
+  "AP-005": "Canonical knowledge remains independent of presentation style, tone, reading level, structure, and medium.",
+  "profiles": [
+    {
+      "name": "Caregiver",
+      "tone": "Warm, practical",
+      "depth": "Applied"
+    },
+    {
+      "name": "Family",
+      "tone": "Accessible, reassuring",
+      "depth": "Overview"
+    },
+    {
+      "name": "Clinician",
+      "tone": "Neutral, evidence-dense",
+      "depth": "Professional"
+    },
+    {
+      "name": "Second Grade Teacher",
+      "tone": "Concise, classroom-focused",
+      "depth": "Applied"
+    },
+    {
+      "name": "Canonical Handbook",
+      "tone": "Reference",
+      "depth": "Comprehensive"
+    }
+  ],
+  "constraints": [
+    "No alteration of evidence",
+    "Traceability preserved",
+    "Audience-appropriate vocabulary",
+    "Configurable tone and density"
+  ]
+}

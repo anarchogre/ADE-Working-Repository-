@@ -1,0 +1,48 @@
+{
+  "artifact": "AKS_Runtime_Specification_v1.0",
+  "engines": {
+    "ingestion": [
+      "capture",
+      "fragment",
+      "provenance",
+      "timestamp"
+    ],
+    "canonicalization": [
+      "validate",
+      "promote",
+      "link"
+    ],
+    "synthesis": [
+      "patterns",
+      "relationships",
+      "alternatives",
+      "outcomes"
+    ],
+    "integrity": [
+      "audit",
+      "duplicates",
+      "orphan_detection",
+      "schema_validation"
+    ],
+    "preservation": [
+      "minor_pp",
+      "major_pp",
+      "baseline_freeze"
+    ]
+  },
+  "object_lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Published(optional)",
+    "Archived(optional)"
+  ],
+  "constraints": [
+    "Never destroy provenance",
+    "Never overwrite canonical history",
+    "Never infer unsupported facts",
+    "Never discard contradictory evidence"
+  ]
+}

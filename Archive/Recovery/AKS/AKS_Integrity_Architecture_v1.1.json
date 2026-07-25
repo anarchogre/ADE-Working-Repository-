@@ -1,0 +1,35 @@
+{
+  "version": "v1.1",
+  "pillars": [
+    {
+      "name": "Epistemic Invariants",
+      "purpose": "Protect foundational truths."
+    },
+    {
+      "name": "Provenance Closure",
+      "purpose": "Trace every artifact."
+    },
+    {
+      "name": "Contradiction Preservation",
+      "purpose": "Retain unresolved evidence."
+    },
+    {
+      "name": "Hypothesis Registry",
+      "purpose": "Track evolving explanations."
+    },
+    {
+      "name": "Failure Archive",
+      "purpose": "Preserve learning."
+    },
+    {
+      "name": "Repository Identity",
+      "purpose": "Maintain reasoning consistency."
+    }
+  ],
+  "audit_triggers": [
+    "Supersession",
+    "Invariant change",
+    "Adapter revision",
+    "Publication regeneration"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "repository_layers": [
+    "Raw Evidence",
+    "Observation Database",
+    "Pattern Library",
+    "Hypotheses",
+    "Validated Principles",
+    "Narratives",
+    "Preservation"
+  ]
+}

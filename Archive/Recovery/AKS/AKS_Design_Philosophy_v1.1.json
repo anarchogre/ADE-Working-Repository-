@@ -1,0 +1,11 @@
+{
+  "version": "v1.1",
+  "principles": [
+    "Least Assumption",
+    "Friction Against Certainty",
+    "Asymmetric Revision",
+    "Explanatory Economy",
+    "Intellectual Hospitality"
+  ],
+  "goal": "Prevent unearned certainty."
+}

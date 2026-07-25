@@ -1,0 +1,33 @@
+{
+  "version": "v2.1",
+  "principles": [
+    {
+      "id": "AP-001",
+      "name": "Repository Integrity"
+    },
+    {
+      "id": "AP-002",
+      "name": "Functional Neutrality"
+    },
+    {
+      "id": "AP-003",
+      "name": "Conservative Synthesis"
+    },
+    {
+      "id": "AP-004",
+      "name": "Audience Projection"
+    },
+    {
+      "id": "AP-005",
+      "name": "Communication Independence"
+    },
+    {
+      "id": "AP-006",
+      "name": "Understanding Before Categorization"
+    },
+    {
+      "id": "AP-007",
+      "name": "Integrity Before Utility"
+    }
+  ]
+}

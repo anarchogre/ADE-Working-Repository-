@@ -1,0 +1,29 @@
+{
+  "dimensions": {
+    "warmth": [
+      0,
+      10
+    ],
+    "directness": [
+      0,
+      10
+    ],
+    "technical_density": [
+      0,
+      10
+    ],
+    "narrative": [
+      0,
+      10
+    ],
+    "citation_visibility": [
+      0,
+      10
+    ],
+    "action_orientation": [
+      0,
+      10
+    ]
+  },
+  "note": "Style dimensions modify presentation only, never canonical evidence."
+}

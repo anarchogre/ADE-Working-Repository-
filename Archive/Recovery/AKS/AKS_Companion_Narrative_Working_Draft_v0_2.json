@@ -1,0 +1,45 @@
+{
+  "document": "AKS Companion Narrative Working Draft v0.2",
+  "story_state": {
+    "setting": "Expedition preserving truth against historical corruption",
+    "rowan": "Observer, age seven, learns through authentic conversation.",
+    "companions": [
+      "Engineer",
+      "Barbarian",
+      "Wizard",
+      "Scout",
+      "Beastmaster",
+      "Giant",
+      "Brikk",
+      "Skrit",
+      "Duchess",
+      "Pickles"
+    ]
+  },
+  "aks_state": {
+    "tests_completed": "0170-0183",
+    "latest_pp": "PP-0044",
+    "latest_observations": [
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220
+    ]
+  },
+  "editorial_policy": [
+    "Engineering is canonical.",
+    "Narrative frames engineering iterations.",
+    "Avoid villain monologues.",
+    "Humor arises naturally from characters."
+  ]
+}

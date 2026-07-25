@@ -1,0 +1,16 @@
+{
+  "operation": "Corpus Recovery I",
+  "mode": "Forensic",
+  "workflow": [
+    "Inventory artifacts",
+    "Recover observations",
+    "Recover behaviors",
+    "Recover contexts",
+    "Recover interventions",
+    "Recover strengths",
+    "Recover unresolved questions",
+    "Synthesize patterns",
+    "Merge duplicates",
+    "Generate major Preservation Point"
+  ]
+}

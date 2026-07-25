@@ -1,0 +1,34 @@
+{
+  "version": "v1.1",
+  "required_fields": [
+    "id",
+    "title",
+    "definition",
+    "provenance",
+    "evidence",
+    "confidence",
+    "validation_status",
+    "version"
+  ],
+  "optional_fields": [
+    "counterfactuals",
+    "knowledge_debt",
+    "communication_metadata",
+    "relationships",
+    "contradictions",
+    "history"
+  ],
+  "lifecycle": [
+    "Draft",
+    "Working",
+    "Validated",
+    "Canonical",
+    "Superseded",
+    "Archived"
+  ],
+  "rules": [
+    "Immutable provenance",
+    "Versioned revisions",
+    "Bidirectional relationships"
+  ]
+}
