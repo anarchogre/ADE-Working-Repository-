@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "identifier": "AKS-SPEC-0004",
+    "title": "Canonical Knowledge Model",
+    "version": "0.1-draft",
+    "status": "Draft",
+    "purpose": "Define canonical knowledge independent of any representation artifact.",
+    "core_principle": "Canonical knowledge is stored once and rendered many ways.",
+    "foundational_entities": [
+      "Proposition",
+      "Concept",
+      "Relationship",
+      "Evidence",
+      "Knowledge Object"
+    ]
+  }
+}

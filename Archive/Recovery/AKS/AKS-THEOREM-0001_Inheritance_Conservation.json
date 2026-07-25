@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "identifier": "AKS-THEOREM-0001",
+    "title": "Inheritance Conservation Theorem",
+    "version": "0.1",
+    "status": "Candidate Accepted for Preservation",
+    "statement": "Any property inherited from the Universal Entity Model need not be redundantly specified by descendant artifact classes unless explicitly overridden.",
+    "tests": [
+      {
+        "name": "Duplication Elimination",
+        "result": "PASS",
+        "finding": "Common metadata is defined once in the Universal Entity Model."
+      },
+      {
+        "name": "Specification Simplification",
+        "result": "PASS",
+        "finding": "Descendant specifications reference inherited properties rather than redefining them."
+      },
+      {
+        "name": "Override Safety",
+        "result": "PASS WITH CONSTRAINT",
+        "finding": "Overrides must be explicit and shall not violate inherited invariants."
+      },
+      {
+        "name": "Forward Compatibility",
+        "result": "PASS",
+        "finding": "Adding inherited properties automatically extends descendant entities."
+      },
+      {
+        "name": "Repository Consistency",
+        "result": "PASS",
+        "finding": "A single inheritance source reduces divergence across artifacts."
+      }
+    ],
+    "limitations": [
+      "Inherited properties may only be overridden where the base specification explicitly permits extension.",
+      "Identity, provenance, and lifecycle are non-overridable kernel properties."
+    ],
+    "conclusion": "The theorem is supported as a foundational engineering principle for the AKS Semantic Kernel."
+  }
+}

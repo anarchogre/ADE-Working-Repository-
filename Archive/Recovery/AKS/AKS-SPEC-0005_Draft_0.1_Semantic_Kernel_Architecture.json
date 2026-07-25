@@ -1,0 +1,21 @@
+{
+  "artifact": {
+    "identifier": "AKS-SPEC-0005",
+    "title": "Semantic Kernel Architecture",
+    "version": "0.1-foundation-draft",
+    "status": "Foundation Draft",
+    "kernel_layers": [
+      "Universal Entity",
+      "Proposition",
+      "Concept",
+      "Relationship",
+      "Evidence",
+      "Knowledge Object"
+    ],
+    "governance": [
+      "Build downward. Depend upward.",
+      "Foundation Freeze after acceptance.",
+      "Lower layers shall not depend on higher layers."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "artifact": {
+    "identifier": "AKS-THEOREMS-0001",
+    "title": "Derived Engineering Theorems",
+    "version": "0.1-draft",
+    "status": "Working Draft",
+    "artifact_class": "Theorem Collection",
+    "authority": "AKS Governance",
+    "steward": "Project Maintainers",
+    "purpose": "Records formally derived statements implied by accepted AKS axioms, vocabulary, and requirements.",
+    "depends_on": [
+      "AKS-CV-0001",
+      "AKS-SPEC-0001"
+    ],
+    "supersedes": null,
+    "change_summary": [
+      "Initial theorem collection established.",
+      "Introduced proof obligations as governed metadata."
+    ],
+    "theorems": [
+      {
+        "id": "T-0001",
+        "name": "Deterministic Interpretation Theorem",
+        "statement": "Every conforming implementation derives the same normative interpretation from the same canonical artifact.",
+        "derived_from": [
+          "R013",
+          "R015",
+          "R019",
+          "R024"
+        ],
+        "proof_obligation": "PO-0001",
+        "verification_state": "Unverified",
+        "notes": "Await formal proof after baseline."
+      },
+      {
+        "id": "T-0002",
+        "name": "Governance Preservation Theorem",
+        "statement": "If Identity Integrity, Governance Integrity, and Historical Integrity are preserved, authoritative evolution remains reconstructable.",
+        "derived_from": [
+          "I-001",
+          "I-003",
+          "I-005",
+          "R004",
+          "R005",
+          "R009",
+          "R010",
+          "R016",
+          "R021",
+          "R022"
+        ],
+        "proof_obligation": "PO-0002",
+        "verification_state": "Unverified",
+        "notes": "Depends upon finalized invariant definitions."
+      }
+    ],
+    "proof_obligations": [
+      {
+        "id": "PO-0001",
+        "target": "T-0001",
+        "status": "Open",
+        "description": "Demonstrate derivation solely from accepted requirements."
+      },
+      {
+        "id": "PO-0002",
+        "target": "T-0002",
+        "status": "Open",
+        "description": "Demonstrate derivation using accepted invariants and requirements."
+      }
+    ],
+    "validation": {
+      "status": "Pending Formal Proof",
+      "criterion": "Every theorem must be derivable without additional assumptions."
+    },
+    "provenance": {
+      "source": "Ontology maturation transition",
+      "preservation_reason": "Automatic Transition Preservation"
+    }
+  }
+}

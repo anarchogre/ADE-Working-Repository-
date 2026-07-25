@@ -1,0 +1,20 @@
+{
+  "artifact": {
+    "identifier": "AKS-SPECSTATE-0001",
+    "title": "Canonical Specification State Template",
+    "version": "1.0",
+    "status": "Active",
+    "purpose": "Represent the current canonical state after accepted changes.",
+    "required_fields": [
+      "Artifact Identifier",
+      "Version",
+      "Supersedes",
+      "Dependencies",
+      "Normative Content",
+      "Validation Rules",
+      "Compatibility",
+      "Change Log",
+      "Provenance"
+    ]
+  }
+}

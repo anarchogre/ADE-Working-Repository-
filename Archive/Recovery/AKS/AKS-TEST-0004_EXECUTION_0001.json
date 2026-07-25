@@ -1,0 +1,14 @@
+{
+  "artifact": {
+    "identifier": "AKS-TEST-0004-EXEC-0001",
+    "title": "Contradiction Detection",
+    "status": "PASS",
+    "findings": [
+      "Contradictions occur at the proposition layer.",
+      "Concept identities remained canonical.",
+      "Governance, not storage, resolves conflict.",
+      "Semantic Kernel unchanged."
+    ],
+    "evidence_quality": "Validated"
+  }
+}

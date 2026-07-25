@@ -1,0 +1,16 @@
+{
+  "artifact": {
+    "identifier": "AKS-TEST-FAMILY-0001",
+    "title": "Engineering Test Framework",
+    "version": "1.0",
+    "status": "Draft",
+    "purpose": "Define repeatable engineering tests for semantic conformance.",
+    "tests": [
+      "AKS-TEST-0001 Semantic Decomposition",
+      "AKS-TEST-0002 Knowledge Composition",
+      "AKS-TEST-0003 Identity Stability",
+      "AKS-TEST-0004 Inheritance Regression",
+      "AKS-TEST-0005 Constraint Validation"
+    ]
+  }
+}

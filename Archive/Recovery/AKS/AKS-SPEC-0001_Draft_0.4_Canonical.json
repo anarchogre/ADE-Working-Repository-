@@ -1,0 +1,201 @@
+{
+  "artifact": {
+    "identifier": "AKS-SPEC-0001",
+    "title": "Canonical Artifact Ontology",
+    "version": "0.4-draft",
+    "status": "Working Draft",
+    "artifact_class": "Specification",
+    "authority": "AKS Governance",
+    "steward": "Project Maintainers",
+    "purpose": "Defines the minimum normative characteristics required of every canonical AKS artifact.",
+    "supersedes": "AKS-SPEC-0001 v0.3-draft",
+    "depends_on": [
+      "AKS-CV-0001"
+    ],
+    "change_summary": [
+      "Expanded ontology from R011 through R024.",
+      "Introduced classification, property, identity, integrity, and determinism requirements."
+    ],
+    "requirements": [
+      {
+        "id": "R011",
+        "title": "Artifact Classification",
+        "statement": "Every canonical artifact SHALL declare exactly one primary artifact class.",
+        "rationale": "Classification governs lifecycle, validation, and stewardship.",
+        "dependencies": [
+          "CV-002",
+          "CV-011"
+        ],
+        "verification": "Verify exactly one primary artifact class is declared.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R012",
+        "title": "Artifact Classification Stability",
+        "statement": "An artifact's primary class SHALL NOT change during its lifetime.",
+        "rationale": "Classification changes imply a different conceptual artifact.",
+        "dependencies": [
+          "CV-003",
+          "CV-011",
+          "R011"
+        ],
+        "verification": "Verify revisions preserve artifact class.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R013",
+        "title": "Required Properties",
+        "statement": "Every canonical artifact SHALL explicitly declare every required property defined by its governing artifact class.",
+        "rationale": "Conformance requires explicit required properties.",
+        "dependencies": [
+          "CV-002",
+          "CV-011",
+          "CV-012"
+        ],
+        "verification": "Verify all required properties are present.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R014",
+        "title": "Unknown Properties",
+        "statement": "Implementations MAY include additional non-canonical properties provided they do not alter normative meaning.",
+        "rationale": "Allows extensibility while preserving interoperability.",
+        "dependencies": [
+          "R013"
+        ],
+        "verification": "Verify extensions do not alter canonical semantics.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R015",
+        "title": "Property Authority",
+        "statement": "Every AKS-defined property SHALL possess exactly one normative definition.",
+        "rationale": "Prevents semantic divergence.",
+        "dependencies": [
+          "AKS-CV-0001"
+        ],
+        "verification": "Verify each canonical property has one governing definition.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R016",
+        "title": "Identity Continuity",
+        "statement": "An artifact SHALL retain its identity across revisions that do not alter conceptual purpose.",
+        "rationale": "Identity persists through revision.",
+        "dependencies": [
+          "CV-003",
+          "R009"
+        ],
+        "verification": "Verify identity continuity.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R017",
+        "title": "Successor Artifacts",
+        "statement": "When conceptual continuity ends, a new artifact SHALL receive a new identity.",
+        "rationale": "Replacement requires new identity.",
+        "dependencies": [
+          "CV-003",
+          "R016"
+        ],
+        "verification": "Verify successors receive distinct identities.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R018",
+        "title": "Artifact Completeness",
+        "statement": "A canonical artifact SHALL satisfy all requirements applicable to its class.",
+        "rationale": "Completeness is requirement-driven.",
+        "dependencies": [
+          "CV-011",
+          "CV-012"
+        ],
+        "verification": "Verify all required properties exist.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R019",
+        "title": "Artifact Consistency",
+        "statement": "A canonical artifact SHALL NOT contain contradictory canonical property values.",
+        "rationale": "Consistency is prerequisite for validation.",
+        "dependencies": [
+          "CV-012",
+          "R013"
+        ],
+        "verification": "Verify no internal contradictions.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R020",
+        "title": "Self-Describing Artifacts",
+        "statement": "Artifacts SHALL contain sufficient metadata to determine identity, class, governing specification, version, and authority.",
+        "rationale": "Supports portability and preservation.",
+        "dependencies": [
+          "CV-003",
+          "CV-005",
+          "CV-011",
+          "R009"
+        ],
+        "verification": "Verify required metadata exists.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R021",
+        "title": "Identity Reuse",
+        "statement": "An identity SHALL NOT be reassigned to a different canonical artifact.",
+        "rationale": "Traceability depends on unique persistent identity.",
+        "dependencies": [
+          "CV-003",
+          "R016"
+        ],
+        "verification": "Verify identities are never reused.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R022",
+        "title": "Orphaned Canonical Artifacts",
+        "statement": "Every canonical artifact SHALL identify its governing specification or authority.",
+        "rationale": "Ungoverned artifacts cannot be validated.",
+        "dependencies": [
+          "CV-005",
+          "R003"
+        ],
+        "verification": "Verify governing authority is declared.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R023",
+        "title": "Duplicate Canonical Artifacts",
+        "statement": "Two canonical artifacts SHALL NOT share one identity while differing normatively.",
+        "rationale": "Identity uniquely identifies one governed concept.",
+        "dependencies": [
+          "CV-003",
+          "R021"
+        ],
+        "verification": "Verify no conflicting duplicates.",
+        "status": "Accepted"
+      },
+      {
+        "id": "R024",
+        "title": "Canonical Determinism",
+        "statement": "Independent conforming implementations SHALL derive the same normative interpretation.",
+        "rationale": "Standards eliminate interpretive ambiguity.",
+        "dependencies": [
+          "AKS-CV-0001",
+          "R015",
+          "R019"
+        ],
+        "verification": "Independent review reaches same conclusions.",
+        "status": "Accepted"
+      }
+    ],
+    "validation": {
+      "status": "Pending Review",
+      "conformance_target": "All requirements satisfied"
+    },
+    "provenance": {
+      "source": "Ontology expansion transition",
+      "preservation_reason": "Automatic Transition Preservation"
+    }
+  }
+}

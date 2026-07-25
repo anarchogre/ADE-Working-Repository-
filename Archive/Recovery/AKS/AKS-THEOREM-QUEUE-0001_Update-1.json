@@ -1,0 +1,21 @@
+{
+  "artifact": {
+    "identifier": "AKS-THEOREM-QUEUE-0001",
+    "version": "0.2",
+    "updates": [
+      {
+        "candidate": "Semantic Decomposition Theorem",
+        "status": "Queued for Validation",
+        "priority": "High",
+        "workflow": [
+          "Construct complex knowledge statements",
+          "Decompose into atomic propositions",
+          "Verify semantic equivalence",
+          "Verify traceability preservation",
+          "Stress test across handbook, specifications, and observations",
+          "Promote to theorem only after repeated successful validation"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "artifact": {
+    "identifier": "AKS-SPEC-0002",
+    "title": "Canonical Evolution and Change Control",
+    "version": "0.1-draft",
+    "status": "Working Draft",
+    "artifact_class": "Specification",
+    "authority": "AKS Governance",
+    "steward": "Project Maintainers",
+    "purpose": "Defines the normative rules governing the evolution of canonical AKS artifacts.",
+    "depends_on": [
+      "AKS-CV-0001",
+      "AKS-SPEC-0001",
+      "AKS-INVARIANTS-0001",
+      "AKS-THEOREMS-0001"
+    ],
+    "requirements": [
+      {
+        "id": "R001",
+        "title": "Explicit Change Authority",
+        "statement": "Every proposed canonical change shall identify the governing authority responsible for the change."
+      },
+      {
+        "id": "R002",
+        "title": "Change Classification",
+        "statement": "Every accepted change shall declare exactly one primary classification: Additive, Corrective, Clarifying, Deprecating, or Breaking."
+      },
+      {
+        "id": "R003",
+        "title": "Normative Intent",
+        "statement": "Every change shall explicitly identify whether it modifies normative behavior, informative content, metadata, or organizational structure."
+      },
+      {
+        "id": "R004",
+        "title": "Compatibility Declaration",
+        "statement": "Every accepted change shall declare whether it is Fully Compatible, Conditionally Compatible, or Breaking."
+      },
+      {
+        "id": "R005",
+        "title": "Dependency Impact Analysis",
+        "statement": "Every proposed change shall identify all affected canonical artifacts before acceptance."
+      },
+      {
+        "id": "R006",
+        "title": "Architectural Integrity Review",
+        "statement": "No accepted change may violate established architectural invariants unless those invariants are themselves evolved through governed change."
+      },
+      {
+        "id": "R007",
+        "title": "Mandatory Transition Preservation",
+        "statement": "No accepted change is complete until every affected canonical artifact has been regenerated and preserved."
+      },
+      {
+        "id": "R008",
+        "title": "Historical Reconstruction",
+        "statement": "Every revision shall preserve sufficient information to reconstruct its immediate predecessor."
+      },
+      {
+        "id": "R009",
+        "title": "Immutable Identity",
+        "statement": "Revision shall never alter canonical identity; only versions evolve."
+      },
+      {
+        "id": "R010",
+        "title": "Deterministic Evolution",
+        "statement": "Given the same prior canonical state and accepted change, independent conforming implementations shall produce equivalent canonical revisions."
+      }
+    ],
+    "derived_observations": [
+      "AKS-SPEC-0001 governs canonical state.",
+      "AKS-SPEC-0002 governs canonical evolution.",
+      "Together they establish the AKS Core."
+    ],
+    "validation": {
+      "status": "Pending Review",
+      "conformance_target": "All evolution requirements satisfied"
+    },
+    "provenance": {
+      "source": "Architectural transition following completion of Foundation Package Alpha core ontology",
+      "preservation_reason": "PR-0001 Automatic Transition Preservation"
+    }
+  }
+}

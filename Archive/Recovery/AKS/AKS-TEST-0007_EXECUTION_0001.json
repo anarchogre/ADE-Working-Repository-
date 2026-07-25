@@ -1,0 +1,32 @@
+{
+  "artifact": {
+    "identifier": "AKS-TEST-0007-EXEC-0001",
+    "title": "Repository Scale Simulation",
+    "status": "PASS",
+    "simulation": {
+      "concepts": 50,
+      "propositions": 120,
+      "relationships": 200,
+      "evidence": 80,
+      "governance": 30,
+      "preservation": 15
+    },
+    "events": [
+      "Concept refinement",
+      "Editorial revisions",
+      "Semantic revision",
+      "Contradiction",
+      "Governance resolution",
+      "Dependency recalculation",
+      "Replay request"
+    ],
+    "results": [
+      "Stable identities maintained",
+      "Lineage preserved",
+      "Contradictions isolated to propositions",
+      "Dependency graph coherent",
+      "Replay prerequisites satisfied",
+      "Kernel unchanged"
+    ]
+  }
+}

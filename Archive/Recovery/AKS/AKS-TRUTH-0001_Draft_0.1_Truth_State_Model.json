@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "identifier": "AKS-TRUTH-0001",
+    "title": "Truth State Model",
+    "version": "0.1-draft",
+    "status": "Draft",
+    "purpose": "Classify the epistemic status of canonical propositions.",
+    "truth_states": [
+      {
+        "id": "TS-001",
+        "name": "Axiom",
+        "description": "Accepted foundational proposition."
+      },
+      {
+        "id": "TS-002",
+        "name": "Requirement",
+        "description": "Normative proposition governing behavior."
+      },
+      {
+        "id": "TS-003",
+        "name": "Observation",
+        "description": "Evidence-backed empirical proposition."
+      },
+      {
+        "id": "TS-004",
+        "name": "Derived",
+        "description": "Logically inferred from accepted propositions."
+      },
+      {
+        "id": "TS-005",
+        "name": "Hypothesis",
+        "description": "Candidate proposition under evaluation."
+      },
+      {
+        "id": "TS-006",
+        "name": "Refuted",
+        "description": "Rejected by evidence or proof."
+      },
+      {
+        "id": "TS-007",
+        "name": "Superseded",
+        "description": "Replaced while retained for history."
+      }
+    ]
+  }
+}
