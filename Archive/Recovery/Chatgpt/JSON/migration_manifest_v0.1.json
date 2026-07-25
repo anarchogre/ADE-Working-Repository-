@@ -1,0 +1,43 @@
+{
+  "artifact": "Migration Manifest",
+  "version": "0.1",
+  "status": "review-required",
+  "source_census": "census_v0.1.json",
+  "actions": {
+    "KEEP": [
+      "AKS_AOS_1_0__All_Previous_data_and_conv.json",
+      "AKS_Forensic_Checkpoint_0001.json",
+      "AKS_Phylactery_PreFreeze_Baseline_v0.1.json",
+      "master_manifest_v0.2.json",
+      "observations_seed.json",
+      "patterns_seed.json",
+      "relationships_seed.json",
+      "cross_reference_index_seed.json"
+    ],
+    "CONVERT": [
+      {
+        "artifact": "AKS_Curation_Protocol_v0.1.docx",
+        "target": "AKS_Curation_Protocol_v0.1.json"
+      },
+      {
+        "artifact": "AKS_Archive_Program_Roadmap_v0.1.docx",
+        "target": "AKS_Archive_Program_Roadmap_v0.1.json"
+      }
+    ],
+    "MERGE_RELATIONSHIP": [
+      {
+        "canonical": "forensic_parser_workflow_start.json",
+        "companion": "forensic parser workflow start.docx",
+        "action": "Retain both; JSON canonical, DOCX human-readable."
+      }
+    ],
+    "ARCHIVE": [],
+    "DELETE_RECOMMENDATIONS": []
+  },
+  "approval_required": true,
+  "notes": [
+    "No destructive actions before user review.",
+    "Manual library sweep follows approval.",
+    "Baseline 1 freeze occurs after verification."
+  ]
+}

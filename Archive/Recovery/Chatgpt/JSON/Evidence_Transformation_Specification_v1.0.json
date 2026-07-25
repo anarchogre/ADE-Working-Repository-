@@ -1,0 +1,19 @@
+{
+  "artifact": "Evidence_Transformation_Specification_v1.0",
+  "pipeline": [
+    "RawSource",
+    "EvidenceFragment",
+    "CandidateObservation",
+    "Validation",
+    "CanonicalObservation",
+    "PatternDetection",
+    "RelationshipDetection",
+    "Audit"
+  ],
+  "invariants": [
+    "No provenance loss",
+    "No silent inference",
+    "No evidence deletion",
+    "Every transformation logged"
+  ]
+}

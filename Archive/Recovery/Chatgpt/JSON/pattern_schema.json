@@ -1,0 +1,15 @@
+{
+  "object_type": "Pattern",
+  "fields": [
+    "id",
+    "title",
+    "description",
+    "supporting_observations",
+    "supporting_relationships",
+    "strengths",
+    "limitations",
+    "confidence",
+    "sources",
+    "revision_history"
+  ]
+}

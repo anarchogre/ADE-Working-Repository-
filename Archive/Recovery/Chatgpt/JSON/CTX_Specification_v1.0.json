@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "CTX",
+  "purpose": "Defines situational context surrounding evidence.",
+  "required_fields": [
+    "id",
+    "description",
+    "timeframe",
+    "participants"
+  ],
+  "relationships": [
+    "context_for",
+    "contains_environment",
+    "contains_transition"
+  ]
+}

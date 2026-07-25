@@ -1,0 +1,51 @@
+{
+  "preservation_point": "MAJOR_PP_0002",
+  "version": "2.0",
+  "status": "Major Preservation Point",
+  "title": "AKS Machine v1 Architectural Baseline",
+  "summary": {
+    "architecture": "Feature-complete for Version 1",
+    "repository": "Stable",
+    "governance": "Stable",
+    "runtime": "Defined",
+    "publication_engine": "Deferred by design"
+  },
+  "adopted_layers": [
+    "Constitutional Layer",
+    "Repository Layer",
+    "Object Layer",
+    "Evidence Layer",
+    "Knowledge Layer",
+    "Reasoning Layer",
+    "Audit Layer",
+    "Workflow Layer",
+    "Query Layer",
+    "Services Layer",
+    "Evolution Layer"
+  ],
+  "runtime_engines": [
+    "Ingestion",
+    "Canonicalization",
+    "Synthesis",
+    "Integrity",
+    "Preservation"
+  ],
+  "constitutional_invariants": [
+    "Evidence before interpretation",
+    "Preserve provenance",
+    "One canonical representation",
+    "Preserve contradictory evidence",
+    "Context is evidence",
+    "Negative evidence is evidence",
+    "Competence and performance are distinct",
+    "Traceability from conclusions to observations",
+    "Architectural changes require preservation points"
+  ],
+  "outstanding_work": [
+    "Implement runtime",
+    "Forensic recovery",
+    "Operational validation",
+    "Query language implementation",
+    "Service implementations"
+  ]
+}

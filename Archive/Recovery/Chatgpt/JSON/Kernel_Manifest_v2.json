@@ -1,0 +1,19 @@
+{
+  "kernel_manifest_version": "2.0-draft",
+  "root_specs": [
+    "SPEC-0000",
+    "SPEC-0001",
+    "SPEC-0002",
+    "SPEC-0003"
+  ],
+  "planned": [
+    "SPEC-0005",
+    "SPEC-0006",
+    "SPEC-1001",
+    "SPEC-1002",
+    "SPEC-1003",
+    "SPEC-1004",
+    "SPEC-1005"
+  ],
+  "constitutional_lock": true
+}

@@ -1,0 +1,12 @@
+{
+  "object_type": "InterventionRegister",
+  "records": [
+    {
+      "id": "INT-0001",
+      "intervention": "",
+      "observed_outcomes": [],
+      "contexts": [],
+      "confidence": {}
+    }
+  ]
+}

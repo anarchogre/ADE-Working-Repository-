@@ -1,0 +1,9 @@
+{
+  "execution_queue": [
+    "Forward Audit Passes 4-5",
+    "Generate Repository Census v1.0",
+    "Generate Migration Manifest v1.0",
+    "Verify library normalization",
+    "Freeze Baseline v1.0"
+  ]
+}

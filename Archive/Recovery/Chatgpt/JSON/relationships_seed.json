@@ -1,0 +1,21 @@
+{
+  "archive": "AKS Relationship Register",
+  "version": "1.0-seed",
+  "created": "2026-07-22",
+  "relationships": [
+    {
+      "id": "REL-0001",
+      "title": "Transition \u2194 Increased likelihood of dysregulation",
+      "status": "candidate",
+      "supporting_observations": [],
+      "counterexamples": [],
+      "notes": "Association only; not causal."
+    },
+    {
+      "id": "REL-0002",
+      "title": "Demonstration \u2194 Improved task initiation",
+      "status": "candidate",
+      "supporting_observations": []
+    }
+  ]
+}

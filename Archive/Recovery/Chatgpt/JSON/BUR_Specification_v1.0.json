@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "BUR",
+  "purpose": "Task burden or demand characteristics.",
+  "required_fields": [
+    "id",
+    "description",
+    "domain"
+  ],
+  "relationships": [
+    "modifies_observation",
+    "modifies_outcome"
+  ]
+}

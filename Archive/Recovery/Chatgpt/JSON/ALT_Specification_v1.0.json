@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "ALT",
+  "purpose": "Alternative explanation retained until resolved.",
+  "required_fields": [
+    "id",
+    "description",
+    "supporting_refs"
+  ],
+  "relationships": [
+    "alternative_to",
+    "supported_by",
+    "contradicted_by"
+  ]
+}

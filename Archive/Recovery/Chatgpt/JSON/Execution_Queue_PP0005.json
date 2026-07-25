@@ -1,0 +1,12 @@
+{
+  "phase": "Knowledge Model",
+  "sequence": [
+    "Knowledge Graph",
+    "Entity Lifecycle",
+    "Relationship Semantics",
+    "Observation Promotion",
+    "Workflow Runtime",
+    "Query Language",
+    "Application Services"
+  ]
+}

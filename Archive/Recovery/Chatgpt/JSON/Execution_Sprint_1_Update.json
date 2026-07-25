@@ -1,0 +1,13 @@
+{
+  "sprint": "Sprint-1",
+  "sequence": [
+    "Finalize SPEC-0003 v1.0.1",
+    "Review SPEC-0003",
+    "Finalize SPEC-0004",
+    "Review SPEC-0004",
+    "Draft SPEC-0005",
+    "Draft SPEC-0006",
+    "Freeze Kernel",
+    "Begin Runtime Specifications"
+  ]
+}

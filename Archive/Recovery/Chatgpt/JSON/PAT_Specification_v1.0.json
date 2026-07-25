@@ -1,0 +1,22 @@
+{
+  "artifact": "PAT_Specification_v1.0",
+  "object_type": "Pattern",
+  "promotion_requirements": {
+    "minimum_supporting_observations": 2,
+    "contradictory_evidence_review": true,
+    "human_review": true
+  },
+  "required_fields": [
+    "id",
+    "description",
+    "supporting_observations",
+    "confidence",
+    "status"
+  ],
+  "relationships": [
+    "supported_by",
+    "contradicted_by",
+    "related_relationships",
+    "related_entities"
+  ]
+}

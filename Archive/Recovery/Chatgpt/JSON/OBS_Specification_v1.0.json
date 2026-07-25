@@ -1,0 +1,42 @@
+{
+  "artifact": "OBS_Specification_v1.0",
+  "object_type": "Observation",
+  "required_fields": [
+    "id",
+    "title",
+    "statement",
+    "source_refs",
+    "provenance",
+    "confidence",
+    "context",
+    "status"
+  ],
+  "optional_fields": [
+    "entities",
+    "environment",
+    "transitions",
+    "notes",
+    "counterevidence",
+    "tags"
+  ],
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "validation_rules": [
+    "Must reference at least one evidence fragment",
+    "Must be descriptive rather than interpretive",
+    "Must preserve provenance",
+    "Must include confidence rationale"
+  ],
+  "relationships": [
+    "supports_pattern",
+    "contradicts_pattern",
+    "mentions_entity",
+    "occurs_in_context"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "ENV",
+  "purpose": "Physical or social environment.",
+  "required_fields": [
+    "id",
+    "setting",
+    "conditions"
+  ],
+  "relationships": [
+    "environment_for",
+    "influences"
+  ]
+}

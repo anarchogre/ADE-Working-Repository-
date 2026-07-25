@@ -1,0 +1,12 @@
+{
+  "object_type": "QuestionRegister",
+  "records": [
+    {
+      "id": "Q-0001",
+      "question": "",
+      "status": "open",
+      "related_observations": [],
+      "priority": "high"
+    }
+  ]
+}

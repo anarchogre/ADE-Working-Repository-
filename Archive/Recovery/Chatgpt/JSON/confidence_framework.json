@@ -1,0 +1,10 @@
+{
+  "dimensions": {
+    "observation_confidence": "How well the event itself is supported",
+    "replication_confidence": "Repeated across observations",
+    "context_confidence": "Across settings/caregivers",
+    "temporal_confidence": "Stable across time",
+    "relationship_confidence": "Support for associations",
+    "interpretation_confidence": "Support for explanations"
+  }
+}

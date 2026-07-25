@@ -1,0 +1,28 @@
+{
+  "object_type": "Observation",
+  "fields": [
+    "id",
+    "title",
+    "description",
+    "status",
+    "sources",
+    "provenance",
+    "domains",
+    "executive_function_tags",
+    "adaptive_skill_tags",
+    "environment",
+    "caregiver",
+    "time_context",
+    "transition_present",
+    "fatigue",
+    "novelty",
+    "sensory_context",
+    "evidence_density",
+    "confidence",
+    "related_observations",
+    "patterns",
+    "relationships",
+    "running_questions",
+    "revision_history"
+  ]
+}

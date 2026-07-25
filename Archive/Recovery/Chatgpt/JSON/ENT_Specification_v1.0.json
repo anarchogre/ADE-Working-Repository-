@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "ENT",
+  "purpose": "Canonical entity representing a person, place, object, organization, or concept.",
+  "required_fields": [
+    "id",
+    "label",
+    "type",
+    "aliases",
+    "source_refs"
+  ],
+  "relationships": [
+    "mentioned_by",
+    "related_to",
+    "member_of",
+    "alias_of"
+  ]
+}

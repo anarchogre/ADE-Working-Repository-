@@ -1,0 +1,15 @@
+{
+  "object_type": "Relationship",
+  "fields": [
+    "id",
+    "title",
+    "description",
+    "observation_ids",
+    "pattern_ids",
+    "context",
+    "confidence",
+    "counterexamples",
+    "sources",
+    "revision_history"
+  ]
+}

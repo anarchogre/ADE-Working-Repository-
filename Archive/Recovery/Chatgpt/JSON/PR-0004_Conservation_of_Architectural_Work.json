@@ -1,0 +1,11 @@
+{
+  "artifact": {
+    "identifier": "PR-0004",
+    "title": "Conservation of Architectural Work",
+    "version": "1.0",
+    "status": "Active",
+    "artifact_class": "Project Rule",
+    "statement": "No accepted architectural decision shall exist solely within conversation history. Accepted decisions shall be preserved as canonical artifacts before sufficient subsequent work accumulates that reconstruction becomes burdensome.",
+    "rationale": "Conversation is a transport medium. Canonical artifacts are the repository."
+  }
+}

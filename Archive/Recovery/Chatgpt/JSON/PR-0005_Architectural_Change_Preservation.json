@@ -1,0 +1,31 @@
+{
+  "artifact": {
+    "identifier": "PR-0005",
+    "title": "Architectural Change Preservation",
+    "version": "1.0",
+    "status": "Active",
+    "artifact_class": "Project Rule",
+    "purpose": "Govern preservation of accepted architectural changes.",
+    "statement": [
+      "Every accepted major architectural change shall immediately produce a canonical JSON artifact.",
+      "The JSON shall be created before subsequent architectural work continues.",
+      "The change shall be entered into the applicable index artifacts at the next preservation checkpoint.",
+      "The JSON is the authoritative record of the decision; conversation history is explanatory only."
+    ],
+    "triggers": [
+      "New specification",
+      "New architectural principle",
+      "New invariant",
+      "New project rule",
+      "Major model revision",
+      "Kernel or repository structural change"
+    ],
+    "non_triggers": [
+      "Brainstorming",
+      "Unaccepted proposals",
+      "Minor wording edits",
+      "Editorial corrections"
+    ],
+    "rationale": "Small, frequent preservation reduces reconstruction cost and creates a reproducible design history."
+  }
+}

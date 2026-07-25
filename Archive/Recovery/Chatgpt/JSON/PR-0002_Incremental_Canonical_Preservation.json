@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "identifier": "PR-0002",
+    "title": "Incremental Canonical Preservation",
+    "version": "1.0",
+    "status": "Active",
+    "artifact_class": "Project Rule",
+    "statement": "Every accepted architectural increment shall be preserved immediately at the smallest practical architectural boundary.",
+    "checkpoints": [
+      {
+        "id": "A",
+        "name": "Specification Initialization"
+      },
+      {
+        "id": "B",
+        "name": "Section / Architectural Transition Acceptance"
+      },
+      {
+        "id": "C",
+        "name": "Draft Completion"
+      },
+      {
+        "id": "D",
+        "name": "Baseline Release"
+      }
+    ],
+    "rationale": "The cost of preservation is negligible; the cost of reconstruction can be enormous."
+  }
+}

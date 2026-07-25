@@ -1,0 +1,20 @@
+{
+  "archive": "AKS Observation Database",
+  "version": "1.0-seed",
+  "created": "2026-07-22",
+  "status": "Seed structure ready for population",
+  "observations": [
+    {
+      "id": "OBS-0001",
+      "title": "Reserved",
+      "status": "placeholder",
+      "description": "",
+      "sources": [],
+      "provenance": [],
+      "domains": [],
+      "relationships": [],
+      "patterns": [],
+      "confidence": {}
+    }
+  ]
+}

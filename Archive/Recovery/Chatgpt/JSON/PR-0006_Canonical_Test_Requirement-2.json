@@ -1,0 +1,8 @@
+{
+  "artifact": {
+    "identifier": "PR-0006",
+    "title": "Canonical Test Requirement",
+    "status": "Active",
+    "statement": "No specification reaches Canonical status until it passes every applicable AKS-TEST artifact."
+  }
+}

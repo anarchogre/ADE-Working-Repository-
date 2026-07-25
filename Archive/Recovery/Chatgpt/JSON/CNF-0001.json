@@ -1,0 +1,16 @@
+{
+  "id": "CNF-0001",
+  "subject": "SPEC-1004",
+  "assessment": "High",
+  "certainty": "Not Asserted",
+  "support_basis": [
+    "Normative requirements defined",
+    "Dimensions independently evaluated",
+    "Deterministic assessment required"
+  ],
+  "traceability": {
+    "review": "REV-0005",
+    "validation": "VAL-0004",
+    "preservation_point": "PP-0005"
+  }
+}

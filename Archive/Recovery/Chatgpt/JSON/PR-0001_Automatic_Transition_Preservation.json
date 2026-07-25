@@ -1,0 +1,11 @@
+{
+  "artifact": {
+    "identifier": "PR-0001",
+    "title": "Automatic Transition Preservation",
+    "version": "1.0",
+    "status": "Active",
+    "artifact_class": "Project Rule",
+    "statement": "Upon completion of every accepted architectural transition, generate every affected canonical artifact as a fully populated, archive-ready JSON without waiting to be prompted.",
+    "rationale": "Preservation is part of completion, not a follow-up task."
+  }
+}

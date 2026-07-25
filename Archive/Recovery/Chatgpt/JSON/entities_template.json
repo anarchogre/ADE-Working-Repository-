@@ -1,0 +1,11 @@
+{
+  "object_type": "EntityRegister",
+  "entities": [
+    {
+      "id": "ENT-0001",
+      "name": "",
+      "entity_type": "",
+      "relationships": []
+    }
+  ]
+}

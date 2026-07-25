@@ -1,0 +1,32 @@
+{
+  "kernel_manifest_version": "2.1-draft",
+  "completed": [
+    "SPEC-0003",
+    "SPEC-0004",
+    "SPEC-0005"
+  ],
+  "in_review": [
+    "SPEC-0006"
+  ],
+  "object_namespaces": [
+    "SPEC",
+    "REV",
+    "VAL",
+    "PP",
+    "OBS",
+    "PAT",
+    "REL",
+    "ENT",
+    "CTX",
+    "ENV",
+    "TRN",
+    "BUR",
+    "GAP",
+    "QST",
+    "ALT",
+    "OUT",
+    "ERR",
+    "EF",
+    "REF"
+  ]
+}

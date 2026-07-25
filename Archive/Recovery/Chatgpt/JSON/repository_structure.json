@@ -1,0 +1,30 @@
+{
+  "registers": [
+    "Governance",
+    "Decision",
+    "Observation",
+    "Pattern",
+    "Relationship",
+    "Timeline",
+    "Entity",
+    "Intervention",
+    "Outcome",
+    "Question",
+    "Conflict",
+    "Reconciliation",
+    "Editorial",
+    "Provenance",
+    "Source",
+    "Strength",
+    "NegativeEvidence",
+    "ConfidenceFramework"
+  ],
+  "lifecycle": [
+    "Raw Evidence",
+    "Candidate Observation",
+    "Verified Observation",
+    "Linked Observation",
+    "Pattern",
+    "Publication"
+  ]
+}

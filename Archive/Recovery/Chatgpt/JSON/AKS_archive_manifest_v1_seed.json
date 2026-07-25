@@ -1,0 +1,26 @@
+{
+  "archive_name": "Archival Knowledge System",
+  "created": "2026-07-22",
+  "volumes": [
+    "Volume I - Governance & Methodology",
+    "Volume II - Repository Architecture",
+    "Volume III - Observation Database",
+    "Volume IV - Patterns & Relationships",
+    "Volume V - Handbook Source",
+    "Volume VI - Disaster Recovery"
+  ],
+  "canonical_json_sets": [
+    "observations",
+    "patterns",
+    "relationships",
+    "entities",
+    "timeline",
+    "decisions",
+    "questions",
+    "sources",
+    "interventions",
+    "strengths",
+    "negative_evidence",
+    "confidence"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "object_type": "DecisionRegister",
+  "records": [
+    {
+      "id": "DEC-0001",
+      "title": "Observation before interpretation",
+      "status": "canonical",
+      "rationale": "",
+      "sources": [],
+      "revision_history": []
+    }
+  ]
+}

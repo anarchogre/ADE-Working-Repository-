@@ -1,0 +1,11 @@
+{
+  "object_type": "NegativeEvidenceRegister",
+  "records": [
+    {
+      "id": "NEG-0001",
+      "description": "",
+      "why_it_matters": "",
+      "supporting_sources": []
+    }
+  ]
+}

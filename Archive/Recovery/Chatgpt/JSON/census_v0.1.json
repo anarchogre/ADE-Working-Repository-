@@ -1,0 +1,76 @@
+{
+  "artifact": "Repository Census",
+  "version": "0.1",
+  "status": "pre-baseline-1",
+  "summary": {
+    "repository_state": "Pre-Baseline 1",
+    "duplicate_json_detected": false,
+    "conversion_requirements": 2,
+    "companion_pairs": 1
+  },
+  "artifacts": [
+    {
+      "name": "AKS_AOS_1_0__All_Previous_data_and_conv.json",
+      "class": "RAW",
+      "disposition": "KEEP",
+      "notes": "Primary evidence archive"
+    },
+    {
+      "name": "AKS_Forensic_Checkpoint_0001.json",
+      "class": "CHK",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "AKS_Phylactery_PreFreeze_Baseline_v0.1.json",
+      "class": "CHK",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "forensic_parser_workflow_start.json",
+      "class": "CAN",
+      "disposition": "KEEP",
+      "relationship": "Companion"
+    },
+    {
+      "name": "forensic parser workflow start.docx",
+      "class": "WRK",
+      "disposition": "KEEP",
+      "relationship": "Companion"
+    },
+    {
+      "name": "AKS_Curation_Protocol_v0.1.docx",
+      "class": "WRK",
+      "disposition": "CONVERT"
+    },
+    {
+      "name": "AKS_Archive_Program_Roadmap_v0.1.docx",
+      "class": "WRK",
+      "disposition": "CONVERT"
+    },
+    {
+      "name": "master_manifest_v0.2.json",
+      "class": "CAN",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "observations_seed.json",
+      "class": "CAN",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "patterns_seed.json",
+      "class": "CAN",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "relationships_seed.json",
+      "class": "CAN",
+      "disposition": "KEEP"
+    },
+    {
+      "name": "cross_reference_index_seed.json",
+      "class": "CAN",
+      "disposition": "KEEP"
+    }
+  ]
+}

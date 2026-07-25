@@ -1,0 +1,27 @@
+{
+  "archive": "AKS Master Manifest",
+  "version": "0.2-seed",
+  "volumes": [
+    "Volume I - Governance & Methodology",
+    "Volume II - Repository Architecture",
+    "Volume III - Observation Database",
+    "Volume IV - Patterns & Relationships",
+    "Volume V - Handbook Source",
+    "Volume VI - Disaster Recovery"
+  ],
+  "json_sets": [
+    "observations",
+    "patterns",
+    "relationships",
+    "entities",
+    "timeline",
+    "sources",
+    "decisions",
+    "questions",
+    "interventions",
+    "strengths",
+    "negative_evidence",
+    "confidence",
+    "cross_reference_index"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "Execution Services",
+  "sequence": [
+    "SPEC-3001 Workflow Runtime",
+    "SPEC-3002 Query Architecture",
+    "SPEC-3003 Explanation Engine",
+    "SPEC-3004 Reporting Services",
+    "SPEC-3005 Handbook Generator"
+  ]
+}

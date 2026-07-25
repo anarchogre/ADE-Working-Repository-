@@ -1,0 +1,16 @@
+{
+  "artifact": "REL_Specification_v1.0",
+  "object_type": "Relationship",
+  "required_fields": [
+    "id",
+    "subject",
+    "predicate",
+    "object",
+    "supporting_observations",
+    "confidence"
+  ],
+  "constraints": [
+    "Association only unless causal evidence exists",
+    "Must preserve contradictory observations"
+  ]
+}

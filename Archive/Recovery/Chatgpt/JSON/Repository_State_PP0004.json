@@ -1,0 +1,21 @@
+{
+  "snapshot": "PP-0004",
+  "maturity": "C1",
+  "domains": [
+    "Constitution",
+    "Specifications",
+    "Reference Implementations",
+    "Knowledge",
+    "Applications"
+  ],
+  "completed": [
+    "Governance framework",
+    "SPEC-0003 draft",
+    "SPEC-0004 draft"
+  ],
+  "pending": [
+    "SPEC-0005",
+    "SPEC-0006",
+    "Runtime engine specifications"
+  ]
+}

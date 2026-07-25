@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "QST",
+  "purpose": "Open investigative question.",
+  "required_fields": [
+    "id",
+    "question",
+    "origin"
+  ],
+  "relationships": [
+    "addresses_gap",
+    "linked_pattern",
+    "linked_entity"
+  ]
+}

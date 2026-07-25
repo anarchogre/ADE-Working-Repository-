@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "GAP",
+  "purpose": "Known evidence deficiency.",
+  "required_fields": [
+    "id",
+    "missing_information",
+    "priority"
+  ],
+  "relationships": [
+    "blocks_pattern",
+    "blocks_relationship",
+    "resolved_by"
+  ]
+}

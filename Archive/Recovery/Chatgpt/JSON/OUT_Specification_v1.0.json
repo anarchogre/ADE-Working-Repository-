@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "OUT",
+  "purpose": "Observed outcome following conditions/interventions.",
+  "required_fields": [
+    "id",
+    "description",
+    "measure"
+  ],
+  "relationships": [
+    "result_of",
+    "supports_pattern",
+    "contradicts_pattern"
+  ]
+}

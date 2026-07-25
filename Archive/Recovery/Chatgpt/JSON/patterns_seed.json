@@ -1,0 +1,25 @@
+{
+  "archive": "AKS Pattern Register",
+  "version": "1.0-seed",
+  "created": "2026-07-22",
+  "patterns": [
+    {
+      "id": "PAT-0001",
+      "title": "Context-dependent behavioral expression",
+      "status": "seeded",
+      "description": "Recovered from longitudinal reconstruction; populate with supporting observations during curation.",
+      "supporting_observations": [],
+      "related_relationships": [],
+      "confidence": {
+        "observation": "pending"
+      }
+    },
+    {
+      "id": "PAT-0002",
+      "title": "Uneven developmental profile",
+      "status": "seeded",
+      "description": "Placeholder awaiting canonical observation linkage.",
+      "supporting_observations": []
+    }
+  ]
+}
