@@ -1,0 +1,23 @@
+{
+  "architecture": {
+    "AKS": "Framework",
+    "Phylactery": "Canonical memory",
+    "DifferenceEngine": "Recovery, inference, synthesis",
+    "Outputs": [
+      "Observation Database",
+      "Strength Register",
+      "Intervention Knowledge Base",
+      "Timeline",
+      "Clinician Edition",
+      "Handbook"
+    ]
+  },
+  "workflow": [
+    "Recover",
+    "Canonicalize",
+    "Cross-reference",
+    "Strengthen",
+    "Preserve",
+    "Repeat"
+  ]
+}

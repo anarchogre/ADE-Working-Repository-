@@ -1,0 +1,12 @@
+{
+  "preservation_point": "PP-0054",
+  "title": "Phase Shift - Living Repository",
+  "status": "Frozen",
+  "phase": "Stewardship Era",
+  "artifacts": [
+    "AKS_Living_Repository_Architecture_v1.0.json",
+    "AKS_Stewards_Compass_v1.0.json",
+    "AKS_Mission_Statement_v1.0.json",
+    "AKS_Longitudinal_Reasoning_v1.0.json"
+  ]
+}

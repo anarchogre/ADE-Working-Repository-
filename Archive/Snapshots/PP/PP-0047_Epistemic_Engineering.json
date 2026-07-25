@@ -1,0 +1,37 @@
+{
+  "preservation_point": "PP-0047",
+  "title": "Epistemic Engineering",
+  "trigger": "Paradigm shift after completion of Repository Architecture campaigns and initiation of Repository Reasoning.",
+  "repository_state": {
+    "phase": "V - Repository Reasoning",
+    "architecture": "Complete (initial)",
+    "status": "Stable"
+  },
+  "milestones": [
+    "Repository Architecture adopted",
+    "Repository Topology adopted",
+    "Repository Traceability adopted",
+    "Repository Semantics adopted",
+    "Repository Reasoning initiated"
+  ],
+  "observations_preserved": [
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254
+  ],
+  "next_campaign": "Continue Repository Reasoning"
+}

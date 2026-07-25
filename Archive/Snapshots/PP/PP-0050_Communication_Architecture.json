@@ -1,0 +1,29 @@
+{
+  "preservation_point": "PP-0050",
+  "title": "Communication Architecture",
+  "trigger": "Separation of canonical knowledge from audience-specific publication.",
+  "validation_queue": [
+    {
+      "proposal": "Evidence-Centered Human Development Architecture",
+      "status": "Compatibility Review"
+    },
+    {
+      "proposal": "AP-004 Audience Projection",
+      "status": "Pending Formal Adoption"
+    },
+    {
+      "proposal": "AP-005 Communication Independence",
+      "status": "Adopted Candidate"
+    }
+  ],
+  "communication_layer": {
+    "principle": "Knowledge is canonical; publications are projections.",
+    "audiences": [
+      "Caregiver",
+      "Family",
+      "Clinician",
+      "Second Grade Teacher",
+      "Canonical Handbook"
+    ]
+  }
+}

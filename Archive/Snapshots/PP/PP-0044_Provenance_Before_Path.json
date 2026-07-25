@@ -1,0 +1,34 @@
+{
+  "preservation_point": "PP-0044",
+  "title": "Provenance Before Path",
+  "trigger": "Automatic under AKS-GOV-0024 after five successful validation tests.",
+  "repository_state": {
+    "kernel_expansions": 0,
+    "foundation_changes": 0,
+    "architectural_drift": 0,
+    "status": "Stable"
+  },
+  "preserved_tests": [
+    "AKS-TEST-0170",
+    "AKS-TEST-0171",
+    "AKS-TEST-0172",
+    "AKS-TEST-0173",
+    "AKS-TEST-0174",
+    "AKS-TEST-0175"
+  ],
+  "preserved_observations": {
+    "201": "Confidence derives from traceable provenance.",
+    "202": "Reproducibility depends upon preserved reasoning constraints.",
+    "203": "Stable foundations permit evolving operations.",
+    "204": "Silent corruption is more dangerous than obvious loss.",
+    "205": "Success itself can become a failure mode.",
+    "206": "Campaign morale observation: cinematic confidence is inversely proportional to sleeve length.",
+    "207": "Preserve reasoning structure, not merely conversations.",
+    "208": "Shared provenance enables future convergence.",
+    "209": "External assumptions should be acknowledged explicitly.",
+    "210": "Trustworthy methodologies recognize the limits of their scope.",
+    "211": "Engineering maturity reduces dependence on conversation history.",
+    "212": "The best governance reduces future decisions while increasing capability."
+  },
+  "continuity_note": "Evidence paths are more important than historical conversation order."
+}

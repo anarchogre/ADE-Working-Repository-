@@ -1,0 +1,15 @@
+{
+  "pp": "PP-0052",
+  "status": "Frozen",
+  "artifacts": [
+    "AKS_Communication_Architecture_v1.0.json",
+    "AKS_Culture_Architecture_v1.0.json",
+    "AKS_Hope_Architecture_v1.0.json",
+    "AKS_Gardener_Principle_v1.0.json",
+    "AKS_Legacy_Architecture_v1.0.json",
+    "AKS_Publication_Front_Matter_v1.0.json",
+    "AKS_Contributor_Provenance_v1.0.json",
+    "AKS_Author_Statement_v1.0.json",
+    "AKS_Repository_Voice_v1.0.json"
+  ]
+}

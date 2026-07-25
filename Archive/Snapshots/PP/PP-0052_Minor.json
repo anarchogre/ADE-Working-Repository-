@@ -1,0 +1,12 @@
+{
+  "preservation_point": "PP-0052",
+  "type": "Minor",
+  "status": "Created",
+  "focus": [
+    "Recovered observation candidates OBS-0016\u2013OBS-0021",
+    "Recovered strength additions STR-0002\u2013STR-0005",
+    "Reconciled Master Conversations 18\u201320 with Clinician Edition",
+    "Observation Database designated canonical repository layer"
+  ],
+  "next_phase": "Continue sequential corpus recovery through remaining library."
+}

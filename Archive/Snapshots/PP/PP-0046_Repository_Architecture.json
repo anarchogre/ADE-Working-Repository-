@@ -1,0 +1,30 @@
+{
+  "preservation_point": "PP-0046",
+  "title": "Repository Architecture",
+  "trigger": "Manual preservation following approval of Phase IV repository architecture.",
+  "repository_state": {
+    "phase": "IV - Repository Architecture",
+    "foundation": "Stable",
+    "architectural_drift": 0,
+    "kernel_expansions": 0,
+    "governance_changes": 0
+  },
+  "artifacts_accepted": [
+    "AKS-ARCH-0001 Artifact Dependency Model",
+    "AKS-ARCH-0002 Artifact Identity Specification",
+    "AKS-ARCH-0003 Artifact Lifecycle Specification",
+    "AKS-ARCH-0004 Reference Integrity Model"
+  ],
+  "architectural_principles": [
+    "AP-001 Repository architecture should be explicit rather than inferred.",
+    "AR-001 Identity survives representation.",
+    "AR-002 Artifacts are superseded, not deleted.",
+    "AR-003 References resolve identities, not locations."
+  ],
+  "observations_preserved": [
+    235,
+    236,
+    237
+  ],
+  "repository_direction": "Transition from knowledge validation to engineering durable knowledge systems."
+}
