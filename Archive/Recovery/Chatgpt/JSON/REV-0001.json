@@ -1,0 +1,14 @@
+{
+  "id": "REV-0001",
+  "subject": "SPEC-0003",
+  "review_type": "Internal Constitutional Review",
+  "disposition": "Adopted with Amendments",
+  "blocking_findings": 0,
+  "non_blocking_findings": 4,
+  "required_amendments": [
+    "Define Registry Authority",
+    "Clarify canonical object dependency",
+    "Clarify lifecycle definitions",
+    "Use abstract canonical error record until ERR specification exists"
+  ]
+}

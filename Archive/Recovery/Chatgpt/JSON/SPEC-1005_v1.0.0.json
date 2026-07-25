@@ -1,0 +1,21 @@
+{
+  "id": "SPEC-1005",
+  "version": "1.0.0",
+  "status": "Reviewed Draft",
+  "title": "Preservation Runtime",
+  "purpose": "Guarantee immutable preservation, replay and recovery.",
+  "requirements": [
+    "Immutable preservation points",
+    "Deterministic replay",
+    "Complete provenance",
+    "Complete audit history",
+    "Replay verification before publication"
+  ],
+  "preservation_levels": [
+    "Incremental",
+    "Milestone",
+    "Major",
+    "Constitutional",
+    "Archive"
+  ]
+}

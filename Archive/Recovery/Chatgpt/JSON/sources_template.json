@@ -1,0 +1,13 @@
+{
+  "object_type": "SourceRegister",
+  "sources": [
+    {
+      "id": "SRC-0001",
+      "title": "",
+      "type": "conversation",
+      "created": "2026-07-22",
+      "notes": "",
+      "provenance_complete": false
+    }
+  ]
+}

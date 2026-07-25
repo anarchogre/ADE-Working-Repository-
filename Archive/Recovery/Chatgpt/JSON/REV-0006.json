@@ -1,0 +1,8 @@
+{
+  "id": "REV-0006",
+  "subject": "SPEC-1005",
+  "disposition": "Adopted with Amendments",
+  "blocking_findings": 0,
+  "non_blocking_findings": 1,
+  "finding": "Introduce RPL namespace for replay records in future."
+}

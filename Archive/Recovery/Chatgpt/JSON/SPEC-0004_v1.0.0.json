@@ -1,0 +1,14 @@
+{
+  "id": "SPEC-0004",
+  "version": "1.0.0-draft",
+  "title": "Specification Dependency Graph",
+  "status": "Draft",
+  "purpose": "Define DAG of constitutional specification dependencies.",
+  "requirements": [
+    "Directed acyclic graph",
+    "Explicit dependency declaration",
+    "No circular dependencies",
+    "Topological bootstrap ordering",
+    "Impact analysis on version changes"
+  ]
+}

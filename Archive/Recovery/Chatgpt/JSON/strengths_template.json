@@ -1,0 +1,11 @@
+{
+  "object_type": "StrengthRegister",
+  "records": [
+    {
+      "id": "STR-0001",
+      "strength": "",
+      "supporting_observations": [],
+      "leveraged_by": []
+    }
+  ]
+}

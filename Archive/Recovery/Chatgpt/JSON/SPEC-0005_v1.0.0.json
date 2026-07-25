@@ -1,0 +1,27 @@
+{
+  "id": "SPEC-0005",
+  "version": "1.0.0-draft",
+  "status": "Reviewed Draft",
+  "title": "Validation Framework",
+  "new_namespace": "VAL",
+  "purpose": "Define deterministic validation for all AKS artifacts.",
+  "validation_levels": [
+    "Structural",
+    "Constitutional",
+    "Dependency",
+    "Semantic",
+    "Preservation"
+  ],
+  "outcomes": [
+    "Pass",
+    "Pass with Warnings",
+    "Pass with Required Amendments",
+    "Fail"
+  ],
+  "requirements": [
+    "Deterministic",
+    "Independent",
+    "Complete",
+    "Traceable"
+  ]
+}

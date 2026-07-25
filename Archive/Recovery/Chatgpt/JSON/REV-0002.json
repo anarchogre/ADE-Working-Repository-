@@ -1,0 +1,9 @@
+{
+  "id": "REV-0002",
+  "subject": "SPEC-0005",
+  "review_type": "Internal Constitutional Review",
+  "disposition": "Adopted with Amendments",
+  "blocking_findings": 0,
+  "non_blocking_findings": 1,
+  "finding": "Introduce VAL canonical object namespace."
+}

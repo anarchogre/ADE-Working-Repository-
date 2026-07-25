@@ -1,0 +1,10 @@
+{
+  "kernel_runtime_manifest": "2.2-draft",
+  "runtime_completed": [
+    "SPEC-1001",
+    "SPEC-1002",
+    "SPEC-1003",
+    "SPEC-1004"
+  ],
+  "next": "SPEC-1005 Preservation Runtime"
+}

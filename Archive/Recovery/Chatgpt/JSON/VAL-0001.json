@@ -1,0 +1,13 @@
+{
+  "id": "VAL-0001",
+  "subject": "SPEC-0005",
+  "validator": "AKS Constitutional Validator",
+  "result": "Pass with Recommendation",
+  "recommendations": [
+    "Adopt VAL namespace as canonical object class"
+  ],
+  "traceability": {
+    "review": "REV-0002",
+    "pp": "PP-0004"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "spec_id": "SPEC-0002",
+  "title": "Error and Exception Framework",
+  "version": "1.0",
+  "principle": "Errors are canonical objects.",
+  "classes": [
+    "PROVENANCE_ERROR",
+    "VALIDATION_ERROR",
+    "SCHEMA_ERROR",
+    "CONTRADICTION",
+    "ORPHAN_REFERENCE",
+    "DUPLICATE_OBJECT",
+    "QUERY_ERROR",
+    "RUNTIME_ERROR"
+  ],
+  "required_fields": [
+    "error_id",
+    "class",
+    "severity",
+    "affected_object",
+    "detected_by",
+    "timestamp",
+    "resolution_status"
+  ]
+}

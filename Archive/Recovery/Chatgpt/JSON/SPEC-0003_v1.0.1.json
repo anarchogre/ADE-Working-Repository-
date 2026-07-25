@@ -1,0 +1,24 @@
+{
+  "id": "SPEC-0003",
+  "version": "1.0.1-draft",
+  "title": "Canonical Identifier Registry",
+  "status": "Reviewed Draft",
+  "purpose": "Define immutable canonical identifiers.",
+  "key_requirements": [
+    "Unique identifiers",
+    "Immutable after allocation",
+    "Never reused",
+    "Monotonic numbering within namespace",
+    "Persistent resolution",
+    "Reserved namespaces reject allocation"
+  ],
+  "lifecycle": [
+    "Reserved",
+    "Allocation Requested",
+    "Allocated",
+    "Active",
+    "Deprecated",
+    "Retired"
+  ],
+  "review": "REV-0001"
+}

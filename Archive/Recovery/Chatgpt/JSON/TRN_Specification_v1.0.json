@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "Draft-Implemented",
+  "lifecycle": [
+    "Captured",
+    "Candidate",
+    "Validated",
+    "Canonical",
+    "Linked",
+    "Archived"
+  ],
+  "provenance_required": true,
+  "artifact": "TRN",
+  "purpose": "State or activity transition.",
+  "required_fields": [
+    "id",
+    "from_state",
+    "to_state",
+    "trigger"
+  ],
+  "relationships": [
+    "associated_with_observation",
+    "associated_with_pattern"
+  ]
+}

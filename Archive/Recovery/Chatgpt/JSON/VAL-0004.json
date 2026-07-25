@@ -1,0 +1,6 @@
+{
+  "id": "VAL-0004",
+  "subject": "SPEC-1004",
+  "result": "Pass with Recommendation",
+  "recommendation": "Adopt CNF namespace and confidence/certainty distinction."
+}

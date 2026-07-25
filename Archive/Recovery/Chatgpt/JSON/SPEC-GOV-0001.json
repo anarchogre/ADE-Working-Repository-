@@ -1,0 +1,17 @@
+{
+  "id": "SPEC-GOV-0001",
+  "title": "Governance Record Framework",
+  "records": [
+    "REV",
+    "VAL",
+    "INT",
+    "CNF",
+    "PRR",
+    "STR",
+    "CDR",
+    "HRR",
+    "ESR",
+    "RPL"
+  ],
+  "purpose": "Common constitutional requirements for governance records."
+}

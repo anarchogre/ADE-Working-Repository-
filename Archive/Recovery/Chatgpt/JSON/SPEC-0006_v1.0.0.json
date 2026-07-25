@@ -1,0 +1,18 @@
+{
+  "id": "SPEC-0006",
+  "version": "1.0.0-draft",
+  "title": "Version Compatibility Framework",
+  "status": "Draft",
+  "purpose": "Define compatibility, semantic versioning, migration, deprecation and successor rules.",
+  "compatibility": [
+    "Backward",
+    "Forward",
+    "Breaking"
+  ],
+  "requirements": [
+    "Every constitutional revision creates a successor specification",
+    "Prior versions remain resolvable",
+    "Migrations must be documented",
+    "Compatibility must be declared"
+  ]
+}

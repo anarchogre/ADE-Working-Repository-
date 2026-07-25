@@ -1,0 +1,40 @@
+{
+  "spec_id": "SPEC-0001",
+  "title": "Machine State Model",
+  "version": "1.0",
+  "states": [
+    "BOOTSTRAP",
+    "RECOVERY",
+    "VALIDATION",
+    "OPERATIONAL",
+    "PRESERVATION",
+    "MIGRATION",
+    "BASELINE_FREEZE"
+  ],
+  "allowed_transitions": {
+    "BOOTSTRAP": [
+      "RECOVERY"
+    ],
+    "RECOVERY": [
+      "VALIDATION"
+    ],
+    "VALIDATION": [
+      "OPERATIONAL",
+      "RECOVERY"
+    ],
+    "OPERATIONAL": [
+      "PRESERVATION",
+      "MIGRATION"
+    ],
+    "PRESERVATION": [
+      "OPERATIONAL",
+      "BASELINE_FREEZE"
+    ],
+    "MIGRATION": [
+      "VALIDATION"
+    ],
+    "BASELINE_FREEZE": [
+      "RECOVERY"
+    ]
+  }
+}

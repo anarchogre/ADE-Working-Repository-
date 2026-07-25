@@ -1,0 +1,13 @@
+{
+  "id": "SPEC-2010",
+  "version": "1.0.0",
+  "status": "Reviewed Draft",
+  "title": "Event Model",
+  "purpose": "Define immutable canonical events and repository history.",
+  "principles": [
+    "Immutable events",
+    "Separate events from interpretations",
+    "Deterministic replay",
+    "Complete provenance"
+  ]
+}

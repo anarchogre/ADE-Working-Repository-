@@ -1,0 +1,51 @@
+{
+  "id": "SPEC-1004",
+  "version": "1.0.0-draft",
+  "status": "Reviewed Draft",
+  "title": "Confidence Engine",
+  "purpose": "Assess evidential support for derived artifacts without modifying evidence.",
+  "inputs": [
+    "OBS",
+    "PAT",
+    "REL",
+    "CTX",
+    "VAL",
+    "INT",
+    "REV"
+  ],
+  "outputs": [
+    "CNF",
+    "Audit Records"
+  ],
+  "confidence_dimensions": [
+    "Evidence Quantity",
+    "Evidence Quality",
+    "Evidence Consistency",
+    "Evidence Coverage",
+    "Contradiction Impact",
+    "Temporal Stability"
+  ],
+  "confidence_classes": [
+    "Very Low",
+    "Low",
+    "Moderate",
+    "High",
+    "Very High"
+  ],
+  "normative_requirements": [
+    "Distinguish evidence from interpretation",
+    "Preserve contradictory evidence",
+    "Expose assessment basis",
+    "Deterministic for identical repository state",
+    "Never suppress uncertainty",
+    "Never infer certainty from confidence"
+  ],
+  "state_model": [
+    "Pending",
+    "Evaluating",
+    "Scored",
+    "Reviewed",
+    "Committed",
+    "Audited"
+  ]
+}

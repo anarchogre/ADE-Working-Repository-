@@ -1,0 +1,6 @@
+{
+  "id": "VAL-0005",
+  "subject": "SPEC-1005",
+  "result": "Pass with Recommendation",
+  "recommendation": "Future replay records should be explicit canonical objects."
+}
