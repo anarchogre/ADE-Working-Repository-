@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0086",
+    "canonical_object_id": "PUBLICATION-0068",
+    "uuid": "RC1-0086-PUBLICATION-0068",
+    "title": "Repository RC1 Canonical Repository Certification Digest",
+    "object_type": "PublicationArtifact"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T23:53:24.060741+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0087"
+  },
+  "relationships": {
+    "parent": "RC1-0019",
+    "depends_on": [
+      "RC1-0085"
+    ],
+    "children": [],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0085"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Populate certification digest, cryptographic hashes, signatures, and final archival references."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "repository_certification_digest": {
+      "purpose": "Maintains the canonical digest of repository certification for the completed RC1 publication repository.",
+      "digest_status": "Pending Final Certification",
+      "digest_entries": [],
+      "digest_notes": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of the Repository RC1 Canonical Repository Certification Digest."
+  }
+}

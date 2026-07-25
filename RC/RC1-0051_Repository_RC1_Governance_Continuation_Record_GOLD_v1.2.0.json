@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0051",
+    "canonical_object_id": "PUBLICATION-0033",
+    "uuid": "RC1-0051-PUBLICATION-0033",
+    "title": "Repository RC1 Governance Continuation Record",
+    "object_type": "PublicationArtifact"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T23:03:39.589393+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0052"
+  },
+  "relationships": {
+    "parent": "RC1-0019",
+    "depends_on": [
+      "RC1-0050"
+    ],
+    "children": [],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0050"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Populate governance continuation approvals, cryptographic digests, signatures, and certification evidence during final repository freeze."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "governance_continuation": {
+      "purpose": "Documents the continuation of repository governance after the completed RC1 publication cycle.",
+      "continuation_status": "Pending Final Certification",
+      "continuation_artifacts": [],
+      "continuation_notes": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of the Repository RC1 Governance Continuation Record."
+  }
+}

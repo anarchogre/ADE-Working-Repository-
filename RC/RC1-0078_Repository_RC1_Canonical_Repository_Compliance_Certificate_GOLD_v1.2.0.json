@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0078",
+    "canonical_object_id": "PUBLICATION-0060",
+    "uuid": "RC1-0078-PUBLICATION-0060",
+    "title": "Repository RC1 Canonical Repository Compliance Certificate",
+    "object_type": "PublicationArtifact"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T23:46:43.490224+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0079"
+  },
+  "relationships": {
+    "parent": "RC1-0019",
+    "depends_on": [
+      "RC1-0077"
+    ],
+    "children": [],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0077"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Populate compliance evidence, cryptographic digests, signatures, certification records, and final repository approvals."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "repository_compliance_certificate": {
+      "purpose": "Records canonical compliance certification for the completed RC1 publication repository.",
+      "certificate_status": "Pending Final Certification",
+      "compliance_records": [],
+      "certificate_notes": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of the Repository RC1 Canonical Repository Compliance Certificate."
+  }
+}

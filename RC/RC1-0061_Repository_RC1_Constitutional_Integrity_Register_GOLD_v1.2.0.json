@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0061",
+    "canonical_object_id": "PUBLICATION-0043",
+    "uuid": "RC1-0061-PUBLICATION-0043",
+    "title": "Repository RC1 Constitutional Integrity Register",
+    "object_type": "PublicationArtifact"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T23:16:42.427473+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0062"
+  },
+  "relationships": {
+    "parent": "RC1-0019",
+    "depends_on": [
+      "RC1-0060"
+    ],
+    "children": [],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0060"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Populate integrity evidence, cryptographic digests, signatures, certification records, and repository freeze verification."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "constitutional_integrity_register": {
+      "purpose": "Maintains the canonical integrity register for constitutional publication artifacts beyond the RC1 publication cycle.",
+      "register_status": "Pending Final Certification",
+      "integrity_entries": [],
+      "register_notes": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of the Repository RC1 Constitutional Integrity Register."
+  }
+}
