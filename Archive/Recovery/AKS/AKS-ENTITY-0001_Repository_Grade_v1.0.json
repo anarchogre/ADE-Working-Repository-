@@ -1,0 +1,44 @@
+{
+  "artifact": {
+    "identifier": "AKS-ENTITY-0001",
+    "title": "Universal Entity Model",
+    "version": "1.0",
+    "status": "Foundation Frozen",
+    "summary": "Repository-grade root specification for all canonical AKS entities.",
+    "inherits": [],
+    "mandatory_properties": [
+      "Identity",
+      "Type",
+      "Version",
+      "Lifecycle",
+      "Provenance",
+      "Validation State",
+      "Dependencies",
+      "Metadata",
+      "Change History"
+    ],
+    "requirements": [
+      "R001-R018"
+    ],
+    "derived_from": [
+      "AKS-AXIOM-0001",
+      "AKS-THEOREM-0001",
+      "AKS-CONSTRAINT-0001"
+    ],
+    "kernel_rules": {
+      "immutable": [
+        "Identity",
+        "Provenance",
+        "Lifecycle semantics"
+      ],
+      "extendable": [
+        "Metadata",
+        "Dependencies",
+        "Validation metadata"
+      ],
+      "replaceable": [
+        "Representation-specific formatting only"
+      ]
+    }
+  }
+}

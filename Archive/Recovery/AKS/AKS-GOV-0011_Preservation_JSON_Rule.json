@@ -1,0 +1,9 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0011",
+    "title": "Preservation Artifact Rule",
+    "status": "Adopted",
+    "rule": "Every Preservation Point (PP) MUST include downloadable JSON artifacts. A PP is not considered complete until its JSON artifacts are generated and archived.",
+    "exceptions": "None"
+  }
+}

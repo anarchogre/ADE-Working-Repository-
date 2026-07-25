@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "identifier": "AKS-DECISION-0003",
+    "title": "Candidate Theorem Validation Workflow",
+    "status": "Accepted",
+    "decision": "All candidate theorems shall enter a formal validation queue before promotion.",
+    "stages": [
+      "Candidate",
+      "Queued",
+      "Validation",
+      "Stress Testing",
+      "Review",
+      "Accepted Theorem",
+      "Archived/Rejected"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-DECISION-0004",
+    "title": "Kernel Freeze",
+    "status": "Accepted",
+    "decision": "Freeze the Semantic Kernel at Gate Alpha.",
+    "effect": [
+      "Future work targets descendant models.",
+      "Kernel modifications require Foundation Audit and preservation checkpoint.",
+      "Regression justification required before altering foundation."
+    ]
+  }
+}

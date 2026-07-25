@@ -1,0 +1,11 @@
+{
+  "artifact": {
+    "identifier": "AKS-ENTITY-0001",
+    "version": "0.3-foundation",
+    "updates": [
+      "Universal Constraint Model adopted.",
+      "Validation constraints inherited by all descendant entities.",
+      "Entity model designated as machine-verifiable."
+    ]
+  }
+}

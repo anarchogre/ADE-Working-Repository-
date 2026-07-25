@@ -1,0 +1,12 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0006",
+    "title": "Representation Revision Governance",
+    "status": "Adopted",
+    "rules": [
+      "Representation revisions do not create new proposition identities when semantics are unchanged.",
+      "Semantic changes require new proposition identities linked by lineage.",
+      "All representation revisions preserve traceability."
+    ]
+  }
+}

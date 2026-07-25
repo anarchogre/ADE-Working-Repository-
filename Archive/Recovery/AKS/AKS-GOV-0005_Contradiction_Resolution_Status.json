@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0005",
+    "title": "Contradiction Resolution Status",
+    "status": "Adopted",
+    "metadata_attribute": {
+      "name": "contradiction_resolution_status",
+      "values": [
+        "Unresolved",
+        "Under Review",
+        "Resolved",
+        "Accepted Exception"
+      ]
+    },
+    "rationale": "Tracks governance state of contradictory propositions without altering proposition identity."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "artifact": {
+    "identifier": "AKS-FOUNDATION-SPRINT-0001",
+    "title": "Semantic Kernel Foundation Sprint",
+    "version": "1.0",
+    "priority_order": [
+      "AKS-ENTITY-0001",
+      "AKS-SPEC-0005",
+      "AKS-PROP-0002",
+      "AKS-CONCEPT-0001",
+      "AKS-REL-0001",
+      "AKS-EVID-0001"
+    ],
+    "milestones": {
+      "Gate Alpha": "Entity accepted",
+      "Gate Beta": "Kernel architecture accepted",
+      "Gate Gamma": "Semantic primitives accepted",
+      "Gate Delta": "Kernel frozen; engineering begins"
+    }
+  }
+}

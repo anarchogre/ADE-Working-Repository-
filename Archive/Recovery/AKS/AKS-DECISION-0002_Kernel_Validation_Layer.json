@@ -1,0 +1,9 @@
+{
+  "artifact": {
+    "identifier": "AKS-DECISION-0002",
+    "title": "Kernel Validation Layer",
+    "status": "Accepted",
+    "decision": "Introduce a universal constraint layer beneath semantic models and above implementations.",
+    "rationale": "Specifications define expected behavior; constraints allow automated verification."
+  }
+}

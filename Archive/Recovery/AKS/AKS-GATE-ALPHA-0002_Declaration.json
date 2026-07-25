@@ -1,0 +1,15 @@
+{
+  "artifact": {
+    "identifier": "AKS-GATE-ALPHA-0002",
+    "title": "Gate Alpha Declaration",
+    "version": "1.0",
+    "status": "Achieved",
+    "criteria": {
+      "Universal Entity": "PASS",
+      "Logical Foundation": "PASS",
+      "Foundation Audit": "PASS",
+      "Kernel Closure": "PASS"
+    },
+    "declaration": "The Semantic Kernel foundation is frozen. Future development shall extend the kernel through descendant specifications unless a formal regression audit justifies modification."
+  }
+}

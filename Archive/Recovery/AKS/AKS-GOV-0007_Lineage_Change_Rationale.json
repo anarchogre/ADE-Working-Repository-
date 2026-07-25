@@ -1,0 +1,18 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0007",
+    "title": "Lineage Change Rationale",
+    "status": "Adopted",
+    "metadata_attribute": {
+      "name": "change_rationale",
+      "values": [
+        "Editorial Clarification",
+        "Semantic Refinement",
+        "Semantic Correction",
+        "Governance Decision",
+        "Evidence Update",
+        "Deprecation"
+      ]
+    }
+  }
+}

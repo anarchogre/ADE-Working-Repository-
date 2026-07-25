@@ -1,0 +1,144 @@
+{
+  "artifact": {
+    "identifier": "AKS-INVARIANTS-0001",
+    "title": "Architectural Invariants",
+    "version": "0.1-draft",
+    "status": "Working Draft",
+    "artifact_class": "Invariant Collection",
+    "authority": "AKS Governance",
+    "steward": "Project Maintainers",
+    "purpose": "Defines the architectural invariants that organize and constrain all canonical AKS specifications.",
+    "depends_on": [
+      "AKS-CV-0001",
+      "AKS-SPEC-0001"
+    ],
+    "supersedes": null,
+    "change_summary": [
+      "Established five architectural invariants.",
+      "Mapped each invariant to supporting requirements."
+    ],
+    "invariants": [
+      {
+        "id": "I-001",
+        "name": "Identity Integrity",
+        "statement": "Artifact identity is unique, persistent, and never reused.",
+        "supported_by": [
+          "R001",
+          "R009",
+          "R016",
+          "R017",
+          "R021",
+          "R023"
+        ],
+        "objective": "Preserve conceptual continuity and traceability."
+      },
+      {
+        "id": "I-002",
+        "name": "Semantic Integrity",
+        "statement": "Every canonical artifact has one authoritative normative interpretation.",
+        "supported_by": [
+          "R013",
+          "R015",
+          "R019",
+          "R024"
+        ],
+        "objective": "Prevent semantic divergence."
+      },
+      {
+        "id": "I-003",
+        "name": "Governance Integrity",
+        "statement": "Every canonical artifact is explicitly governed by recognized authority.",
+        "supported_by": [
+          "R003",
+          "R004",
+          "R008",
+          "R022"
+        ],
+        "objective": "Ensure accountability and stewardship."
+      },
+      {
+        "id": "I-004",
+        "name": "Structural Integrity",
+        "statement": "Every canonical artifact conforms to the required structure for its artifact class.",
+        "supported_by": [
+          "R011",
+          "R012",
+          "R018",
+          "R020"
+        ],
+        "objective": "Enable deterministic validation."
+      },
+      {
+        "id": "I-005",
+        "name": "Historical Integrity",
+        "statement": "The evolution of every canonical artifact remains reconstructable.",
+        "supported_by": [
+          "R004",
+          "R005",
+          "R009",
+          "R010",
+          "R016"
+        ],
+        "objective": "Support preservation, auditability, and provenance."
+      }
+    ],
+    "conformance_matrix": [
+      {
+        "invariant": "I-001",
+        "requirements": [
+          "R001",
+          "R009",
+          "R016",
+          "R017",
+          "R021",
+          "R023"
+        ]
+      },
+      {
+        "invariant": "I-002",
+        "requirements": [
+          "R013",
+          "R015",
+          "R019",
+          "R024"
+        ]
+      },
+      {
+        "invariant": "I-003",
+        "requirements": [
+          "R003",
+          "R004",
+          "R008",
+          "R022"
+        ]
+      },
+      {
+        "invariant": "I-004",
+        "requirements": [
+          "R011",
+          "R012",
+          "R018",
+          "R020"
+        ]
+      },
+      {
+        "invariant": "I-005",
+        "requirements": [
+          "R004",
+          "R005",
+          "R009",
+          "R010",
+          "R016"
+        ]
+      }
+    ],
+    "validation": {
+      "status": "Pending Review",
+      "criterion": "Every supporting requirement remains satisfied."
+    },
+    "provenance": {
+      "source": "Ontology consolidation transition",
+      "preservation_reason": "Automatic Transition Preservation"
+    }
+  }
+}

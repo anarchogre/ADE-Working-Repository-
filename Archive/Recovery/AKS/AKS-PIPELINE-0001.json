@@ -1,0 +1,20 @@
+{
+  "artifact": {
+    "identifier": "AKS-PIPELINE-0001",
+    "title": "Canonical Processing Pipeline",
+    "version": "0.1",
+    "status": "Adopted",
+    "stages": [
+      "Source Material",
+      "Observation Extraction",
+      "Atomic Proposition Extraction",
+      "Concept Resolution",
+      "Relationship Resolution",
+      "Evidence Linking",
+      "Knowledge Object Assembly",
+      "Validation",
+      "Rendering",
+      "Semantic Equivalence Audit"
+    ]
+  }
+}

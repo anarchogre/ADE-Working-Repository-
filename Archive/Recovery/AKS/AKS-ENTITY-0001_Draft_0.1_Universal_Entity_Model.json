@@ -1,0 +1,24 @@
+{
+  "artifact": {
+    "identifier": "AKS-ENTITY-0001",
+    "title": "Universal Entity Model",
+    "version": "0.1-foundation-draft",
+    "status": "Foundation Draft",
+    "purpose": "Root ontology from which every canonical AKS object inherits.",
+    "mandatory_properties": [
+      "Immutable Identity",
+      "Type",
+      "Version",
+      "Lifecycle",
+      "Provenance",
+      "Metadata",
+      "Validation State"
+    ],
+    "core_questions": [
+      "What is an entity?",
+      "What properties are mandatory?",
+      "What properties are inherited?",
+      "How does identity persist across evolution?"
+    ]
+  }
+}

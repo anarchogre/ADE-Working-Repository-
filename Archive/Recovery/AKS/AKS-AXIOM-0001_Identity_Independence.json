@@ -1,0 +1,19 @@
+{
+  "artifact": {
+    "identifier": "AKS-AXIOM-0001",
+    "title": "Identity Independence Axiom",
+    "version": "0.1-foundation",
+    "status": "Foundation Draft",
+    "statement": "Every canonical object exists independently of any representation.",
+    "corollaries": [
+      "Representations may change without changing identity.",
+      "Repository location is not identity.",
+      "Serialization format is not identity.",
+      "References shall resolve through canonical identity."
+    ],
+    "supports": [
+      "AKS-ENTITY-0001",
+      "AKS-THEOREM-0001"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0004",
+    "title": "Dependency Review Status",
+    "status": "Adopted (Governance Metadata)",
+    "purpose": "Track the review outcome of every dependency after a related concept revision.",
+    "metadata_attribute": {
+      "name": "dependency_review_status",
+      "values": [
+        "Pending Review",
+        "Reviewed - No Change Required",
+        "Updated",
+        "Superseded"
+      ]
+    },
+    "note": "This is governance metadata. It does not modify the Semantic Kernel or introduce new relationship primitives."
+  }
+}

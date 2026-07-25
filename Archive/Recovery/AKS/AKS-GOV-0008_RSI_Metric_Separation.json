@@ -1,0 +1,23 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0008",
+    "title": "Repository Stability Index Metric Separation",
+    "status": "Adopted",
+    "correctness_metrics": [
+      "Test Pass Rate",
+      "Semantic Integrity",
+      "Dependency Integrity",
+      "Replay Success",
+      "Traceability Completeness"
+    ],
+    "capacity_metrics": [
+      "Concept Count",
+      "Proposition Count",
+      "Relationship Count",
+      "Evidence Count",
+      "Governance Record Count",
+      "Preservation Record Count"
+    ],
+    "note": "Dashboard refinement only; no Semantic Kernel changes."
+  }
+}

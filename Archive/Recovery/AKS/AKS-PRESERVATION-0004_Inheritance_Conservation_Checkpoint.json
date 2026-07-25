@@ -1,0 +1,18 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0004",
+    "title": "Preservation Checkpoint - Inheritance Conservation",
+    "version": "1.0",
+    "status": "Recorded",
+    "accepted_changes": [
+      "Universal Entity Model designated as the single inheritance root.",
+      "Inheritance Conservation Theorem tested and accepted.",
+      "Non-overridable kernel properties identified: Identity, Provenance, Lifecycle.",
+      "Explicit override policy established."
+    ],
+    "next_work": [
+      "Complete repository-grade AKS-ENTITY-0001",
+      "Implement Proposition Model on inherited entity base"
+    ]
+  }
+}

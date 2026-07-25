@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0005",
+    "title": "Foundation Logic Checkpoint",
+    "status": "Recorded",
+    "accepted": [
+      "AKS-AXIOM-0001 established.",
+      "Identity Axiom positioned above kernel specifications.",
+      "Logical hierarchy defined: Axioms -> Theorems -> Specifications -> Entities -> Representations."
+    ],
+    "next_target": "Gate Alpha completion via repository-grade AKS-ENTITY-0001."
+  }
+}

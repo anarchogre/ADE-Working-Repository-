@@ -1,0 +1,12 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0003",
+    "title": "Populated Preservation Discipline",
+    "status": "Adopted",
+    "requirements": [
+      "Every preservation point contains populated observations, findings, decisions, and next actions.",
+      "Empty checkpoints are prohibited.",
+      "Preservation occurs before and after significant engineering milestones."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "artifact": {
+    "identifier": "AKS-CV-0001",
+    "version": "0.3-draft",
+    "new_terms": [
+      {
+        "id": "CV-013",
+        "term": "Proposition",
+        "definition": "Smallest semantically complete unit of canonical knowledge."
+      },
+      {
+        "id": "CV-014",
+        "term": "Knowledge Object",
+        "definition": "Governed aggregation of propositions, concepts, relationships, and evidence."
+      },
+      {
+        "id": "CV-015",
+        "term": "Concept",
+        "definition": "Reusable semantic entity referenced by propositions."
+      },
+      {
+        "id": "CV-016",
+        "term": "Relationship",
+        "definition": "Governed semantic connection between knowledge entities."
+      },
+      {
+        "id": "CV-017",
+        "term": "Evidence",
+        "definition": "Traceable support for one or more propositions."
+      }
+    ]
+  }
+}

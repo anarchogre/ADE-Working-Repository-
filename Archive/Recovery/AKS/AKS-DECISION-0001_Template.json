@@ -1,0 +1,21 @@
+{
+  "artifact": {
+    "identifier": "AKS-DECISION-0001",
+    "title": "Decision Record Template",
+    "version": "1.0",
+    "status": "Active",
+    "purpose": "Capture every accepted major architectural decision.",
+    "required_fields": [
+      "Decision ID",
+      "Title",
+      "Accepted On",
+      "Context",
+      "Decision",
+      "Rationale",
+      "Alternatives Considered",
+      "Affected Artifacts",
+      "Follow-up Actions",
+      "Preservation Checkpoint"
+    ]
+  }
+}

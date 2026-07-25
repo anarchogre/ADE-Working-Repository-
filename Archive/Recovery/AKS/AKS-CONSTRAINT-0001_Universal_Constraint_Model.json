@@ -1,0 +1,36 @@
+{
+  "artifact": {
+    "identifier": "AKS-CONSTRAINT-0001",
+    "title": "Universal Constraint Model",
+    "version": "0.1-foundation",
+    "status": "Foundation Draft",
+    "purpose": "Defines machine-verifiable constraints inherited by every canonical Entity.",
+    "constraints": [
+      {
+        "id": "C001",
+        "name": "Identity Integrity",
+        "rule": "Exactly one canonical identity."
+      },
+      {
+        "id": "C002",
+        "name": "Lifecycle Integrity",
+        "rule": "Exactly one lifecycle state."
+      },
+      {
+        "id": "C003",
+        "name": "Type Integrity",
+        "rule": "Exactly one primary type."
+      },
+      {
+        "id": "C004",
+        "name": "Provenance Integrity",
+        "rule": "Every revision has traceable provenance."
+      },
+      {
+        "id": "C005",
+        "name": "Reference Integrity",
+        "rule": "All canonical references resolve to existing Entities."
+      }
+    ]
+  }
+}

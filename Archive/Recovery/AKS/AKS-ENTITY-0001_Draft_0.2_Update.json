@@ -1,0 +1,11 @@
+{
+  "artifact": {
+    "identifier": "AKS-ENTITY-0001",
+    "version": "0.2-foundation",
+    "updates": [
+      "R015 derives from AKS-AXIOM-0001.",
+      "Identity classified as a non-overridable kernel property.",
+      "Representation independence elevated from implementation guidance to architectural consequence."
+    ]
+  }
+}

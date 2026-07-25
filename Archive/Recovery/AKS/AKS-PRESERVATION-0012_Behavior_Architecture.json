@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0012",
+    "title": "Behavior Architecture Adoption",
+    "status": "Recorded",
+    "changes": [
+      "Pipeline Determinism Principle queued.",
+      "Canonical Processing Pipeline adopted.",
+      "Architectural domain separation adopted."
+    ],
+    "next": "Begin AKS-TEST-0001 using a real section of AKS-ENTITY-0001."
+  }
+}

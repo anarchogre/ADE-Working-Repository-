@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0002",
+    "title": "Evidence-Driven Evolution",
+    "status": "Adopted",
+    "rules": [
+      "Tests reveal refinements.",
+      "Refinements require preserved evidence.",
+      "Foundation changes require repeated test failures.",
+      "Every accepted refinement must reference supporting test executions."
+    ]
+  }
+}

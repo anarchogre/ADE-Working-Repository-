@@ -1,0 +1,33 @@
+{
+  "artifact": {
+    "identifier": "AKS-EVID-0001",
+    "title": "Evidence Quality Classification",
+    "status": "Adopted (Refinement)",
+    "classification_attribute": {
+      "name": "evidence_quality",
+      "description": "Metadata describing the provenance quality of an Evidence entity. This does not create new evidence primitives."
+    },
+    "classes": [
+      {
+        "name": "Observed",
+        "definition": "Directly observed or recorded."
+      },
+      {
+        "name": "Derived",
+        "definition": "Logically inferred from canonical knowledge."
+      },
+      {
+        "name": "Normative",
+        "definition": "Established by accepted specifications or governance."
+      },
+      {
+        "name": "Validated",
+        "definition": "Confirmed through one or more AKS-TEST executions."
+      },
+      {
+        "name": "External",
+        "definition": "Originates outside the AKS repository."
+      }
+    ]
+  }
+}

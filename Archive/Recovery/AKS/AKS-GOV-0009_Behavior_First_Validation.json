@@ -1,0 +1,12 @@
+{
+  "artifact": {
+    "identifier": "AKS-GOV-0009",
+    "title": "Behavior-First Validation",
+    "status": "Adopted",
+    "rules": [
+      "Queue candidate refinements before adoption unless already supported by repeated evidence.",
+      "Prefer behavioral validation over architectural expansion.",
+      "Promote candidates only after documented successful tests."
+    ]
+  }
+}

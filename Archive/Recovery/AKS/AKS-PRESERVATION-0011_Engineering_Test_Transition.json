@@ -1,0 +1,12 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0011",
+    "title": "Engineering Test Transition",
+    "status": "Recorded",
+    "major_changes": [
+      "Engineering test family introduced.",
+      "Canonical test requirement adopted.",
+      "Gate Beta defined around end-to-end semantic validation."
+    ]
+  }
+}

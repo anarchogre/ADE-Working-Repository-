@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0006",
+    "title": "Kernel Constraint Checkpoint",
+    "status": "Recorded",
+    "accepted_changes": [
+      "Universal Constraint Model established.",
+      "Validation promoted to a first-class kernel capability.",
+      "Entity Model updated to inherit universal constraints."
+    ],
+    "next_target": "Repository-grade AKS-ENTITY-0001 and Gate Alpha."
+  }
+}

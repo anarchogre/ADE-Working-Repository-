@@ -1,0 +1,12 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0010",
+    "title": "Semantic Composition Checkpoint",
+    "status": "Recorded",
+    "accepted_changes": [
+      "Knowledge Composition Principle added to validation queue.",
+      "Bidirectional validation (decomposition and recomposition) adopted as the engineering test for semantic models."
+    ],
+    "next_phase": "Complete repository-grade AKS-PROP-0002 and execute the first real decomposition/recomposition exercise."
+  }
+}

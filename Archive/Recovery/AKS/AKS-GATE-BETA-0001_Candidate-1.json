@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "identifier": "AKS-GATE-BETA-0001",
+    "title": "Gate Beta Candidate Criteria",
+    "version": "0.1",
+    "primary_acceptance": "Successful end-to-end semantic round-trip.",
+    "workflow": [
+      "Decompose source",
+      "Resolve concepts",
+      "Build relationship graph",
+      "Associate evidence",
+      "Assemble knowledge object",
+      "Render artifact",
+      "Audit semantic equivalence"
+    ]
+  }
+}

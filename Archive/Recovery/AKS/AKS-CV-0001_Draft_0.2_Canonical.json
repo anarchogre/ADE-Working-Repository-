@@ -1,0 +1,57 @@
+{
+  "artifact": {
+    "identifier": "AKS-CV-0001",
+    "title": "Canonical Vocabulary",
+    "version": "0.2-draft",
+    "status": "Working Draft",
+    "artifact_class": "Vocabulary",
+    "authority": "AKS Governance",
+    "steward": "Project Maintainers",
+    "purpose": "Defines the canonical vocabulary used by all AKS specifications.",
+    "depends_on": [],
+    "supersedes": "AKS-CV-0001 v0.1-draft",
+    "change_summary": [
+      "Added CV-011 Artifact Class",
+      "Added CV-012 Property"
+    ],
+    "terms": [
+      {
+        "id": "CV-011",
+        "term": "Artifact Class",
+        "definition": "The canonical category assigned to an artifact that determines the governance rules, responsibilities, and behaviors applicable to that artifact.",
+        "normative": true,
+        "references": [
+          "AKS-SPEC-0001:R011",
+          "AKS-SPEC-0001:R012",
+          "AKS-SPEC-0001:R018",
+          "AKS-SPEC-0001:R020"
+        ]
+      },
+      {
+        "id": "CV-012",
+        "term": "Property",
+        "definition": "A named characteristic of an artifact whose value contributes to the artifact's identity, governance, interpretation, or validation.",
+        "normative": true,
+        "classification": [
+          "Required",
+          "Optional",
+          "Implementation-specific"
+        ],
+        "references": [
+          "AKS-SPEC-0001:R013",
+          "AKS-SPEC-0001:R015",
+          "AKS-SPEC-0001:R018",
+          "AKS-SPEC-0001:R019"
+        ]
+      }
+    ],
+    "validation": {
+      "schema": "canonical-vocabulary",
+      "status": "Pending Review"
+    },
+    "provenance": {
+      "source": "Transition after ontology expansion through R024",
+      "preservation_reason": "Automatic Transition Preservation"
+    }
+  }
+}

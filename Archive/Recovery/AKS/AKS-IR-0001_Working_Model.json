@@ -1,0 +1,21 @@
+{
+  "artifact": {
+    "identifier": "AKS-IR-0001",
+    "title": "Canonical Intermediate Representation",
+    "status": "Working Model",
+    "classification": "Design Philosophy",
+    "pipeline": [
+      "Source Material",
+      "Canonical Intermediate Representation",
+      "Rendered Views"
+    ],
+    "core_entities": [
+      "Entities",
+      "Propositions",
+      "Concepts",
+      "Relationships",
+      "Evidence",
+      "Knowledge Objects"
+    ]
+  }
+}

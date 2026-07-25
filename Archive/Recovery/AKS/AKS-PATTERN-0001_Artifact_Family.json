@@ -1,0 +1,15 @@
+{
+  "artifact": {
+    "identifier": "AKS-PATTERN-0001",
+    "title": "Pattern Artifact Family",
+    "status": "Adopted",
+    "purpose": "Capture reusable semantic modeling solutions without imposing normative requirements.",
+    "examples": [
+      "Observation Pattern",
+      "Requirement Pattern",
+      "Evidence Linking Pattern",
+      "Round-Trip Validation Pattern",
+      "Handbook Chapter Pattern"
+    ]
+  }
+}
