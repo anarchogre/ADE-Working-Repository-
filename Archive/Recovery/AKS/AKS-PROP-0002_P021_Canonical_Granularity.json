@@ -1,0 +1,10 @@
+{
+  "artifact": {
+    "identifier": "AKS-PROP-0002",
+    "section": "P021",
+    "title": "Canonical Granularity",
+    "status": "Adopted",
+    "statement": "A Proposition shall represent the smallest assertion that can change independently without changing the meaning of another proposition.",
+    "purpose": "Ensure propositions can evolve independently without semantic coupling."
+  }
+}

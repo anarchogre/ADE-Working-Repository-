@@ -1,0 +1,32 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0038",
+    "title": "First Principles Falsification I",
+    "status": "Recorded",
+    "completed_through_test": "AKS-TEST-0121",
+    "tests_completed": [
+      "AKS-TEST-0117",
+      "AKS-TEST-0118",
+      "AKS-TEST-0119",
+      "AKS-TEST-0120",
+      "AKS-TEST-0121"
+    ],
+    "engineering_state": {
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "key_findings": [
+      "All current first-principle candidates survived direct elimination.",
+      "Observation-first remains foundational to trustworthy evidence.",
+      "Preservation underpins replay and confidence reconstruction.",
+      "Semantic/process separation continues to prevent drift.",
+      "Falsification remains essential for calibrated confidence.",
+      "Engineering history preserves the rationale behind trust."
+    ],
+    "current_assessment": {
+      "status": "No candidate promoted",
+      "next_focus": "Replacement attacks against first-principle candidates"
+    }
+  }
+}

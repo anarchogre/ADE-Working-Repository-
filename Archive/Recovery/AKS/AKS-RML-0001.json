@@ -1,0 +1,27 @@
+{
+  "artifact": {
+    "identifier": "AKS-RML-0001",
+    "title": "Repository Maturity Model",
+    "status": "Adopted",
+    "levels": [
+      {
+        "id": "RML-1",
+        "name": "Operational Semantic Repository"
+      },
+      {
+        "id": "RML-2",
+        "name": "Proven at Scale"
+      },
+      {
+        "id": "RML-3",
+        "name": "Stable Long-Term Knowledge Infrastructure"
+      }
+    ],
+    "gate_mapping": {
+      "Gate Alpha": "Foundation Complete",
+      "Gate Beta": "RML-1 Certification",
+      "Gate Gamma": "RML-2",
+      "Gate Delta": "RML-3"
+    }
+  }
+}

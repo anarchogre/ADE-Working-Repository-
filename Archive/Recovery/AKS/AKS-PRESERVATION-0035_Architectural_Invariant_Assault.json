@@ -1,0 +1,39 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0035",
+    "title": "Architectural Invariant Assault",
+    "status": "Recorded",
+    "type": "Special Populated Preservation Point",
+    "engineering_state": {
+      "campaign": "Adversarial Campaign VII",
+      "completed_through_test": "AKS-TEST-0093",
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "campaign_summary": {
+      "tests": [
+        "AKS-TEST-0089",
+        "AKS-TEST-0090",
+        "AKS-TEST-0091",
+        "AKS-TEST-0092",
+        "AKS-TEST-0093"
+      ],
+      "result": "All proposed invariants withstood direct inversion attacks."
+    },
+    "high_confidence_findings": [
+      "Observation before interpretation remains essential to trustworthy replay.",
+      "Evidence before confidence remains necessary for auditable engineering.",
+      "Queue before promotion prevents architectural drift.",
+      "Preservation before forgetting protects engineering rationale.",
+      "Falsification before certainty produces stronger confidence than repeated confirmation."
+    ],
+    "queued_or_pending": [
+      "AKS-QUEUE-0008 Engineering Culture Preservation Hypothesis",
+      "AKS-QUEUE-0009 Evidence Independence Metric",
+      "AKS-RESEARCH-0001 Epistemic Integrity Framework Hypothesis",
+      "Candidate: Architectural Hierarchy (pending adversarial validation)"
+    ],
+    "next_campaign": "Attack the proposed architectural hierarchy itself before any promotion."
+  }
+}

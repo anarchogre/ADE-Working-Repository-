@@ -1,0 +1,9 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRINCIPLE-QUEUE-0002",
+    "title": "Pipeline Determinism Principle",
+    "status": "Queued for Validation",
+    "statement": "Given identical canonical inputs and identical governing specifications, the AKS processing pipeline shall produce semantically equivalent canonical outputs.",
+    "validation": "Exercise across multiple round-trip tests with different renderers."
+  }
+}

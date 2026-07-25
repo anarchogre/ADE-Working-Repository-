@@ -1,0 +1,18 @@
+{
+  "artifact": {
+    "identifier": "AKS-SIS-0001",
+    "title": "Semantic Integrity Checklist",
+    "version": "0.1",
+    "status": "Adopted",
+    "pass_conditions": [
+      "Atomic propositions",
+      "Canonical concept resolution",
+      "Canonical relationship resolution",
+      "Canonical references",
+      "Valid dependencies",
+      "Constraint compliance",
+      "Resolved evidence links"
+    ],
+    "result": "PASS only when every condition succeeds."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0040",
+    "title": "Boundary Conditions & Self-Revision Snapshot",
+    "status": "Recorded",
+    "completed_through_test": "AKS-TEST-0143",
+    "tests_completed": [
+      "AKS-TEST-0140",
+      "AKS-TEST-0141",
+      "AKS-TEST-0142",
+      "AKS-TEST-0143"
+    ],
+    "engineering_state": {
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "adopted_since_previous_pp": [
+      "AKS-GOV-0021 Explicit Uncertainty Principle",
+      "AKS-GOV-0022 Transparent Failure Principle",
+      "AKS-GOV-0023 Humility Principle"
+    ],
+    "queue_updates": [
+      "AKS-QUEUE-0011 First Principle Independence Hypothesis",
+      "AKS-QUEUE-0012 Independent Reproduction Program",
+      "AKS-QUEUE-0013 Quantitative Validation Metrics"
+    ],
+    "research_updates": [
+      "AKS-RESEARCH-0003 Boundary of Trust Hypothesis",
+      "AKS-RESEARCH-0004 Minimal Specification Hypothesis"
+    ],
+    "key_findings": [
+      "AKS is strongest where knowledge must remain explainable, reproducible, and auditable.",
+      "Governance can evolve without invalidating repository history when changes are preserved.",
+      "The methodology now includes a disciplined mechanism for self-revision.",
+      "Boundaries have become explicit engineering assets rather than perceived weaknesses."
+    ],
+    "next_campaign": "Meta-Validation Campaign"
+  }
+}

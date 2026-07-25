@@ -1,0 +1,14 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0006",
+    "title": "Architectural Stability Principle",
+    "status": "Validation Queue",
+    "candidate_statement": "A Semantic Kernel should remain unchanged unless repeated empirical evidence demonstrates that an existing primitive cannot adequately model observed behavior.",
+    "rationale": "Deferred pending additional Gate Beta validation.",
+    "supporting_tests": [
+      "AKS-TEST-0022",
+      "AKS-TEST-0023",
+      "AKS-TEST-0025"
+    ]
+  }
+}

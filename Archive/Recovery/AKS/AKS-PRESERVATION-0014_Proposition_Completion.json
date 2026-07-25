@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0014",
+    "title": "Proposition Completion Preservation Point",
+    "status": "Recorded",
+    "changes": [
+      "P021 Canonical Granularity adopted.",
+      "Semantic Integrity Checklist v0.1 adopted.",
+      "Canonical Intermediate Representation adopted as a working model."
+    ],
+    "next_step": "Execute AKS-TEST-0001 Semantic Decomposition Test Phase A."
+  }
+}

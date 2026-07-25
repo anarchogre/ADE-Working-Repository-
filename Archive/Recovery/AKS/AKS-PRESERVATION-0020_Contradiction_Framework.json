@@ -1,0 +1,27 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0020",
+    "title": "Contradiction Framework",
+    "status": "Recorded",
+    "engineering_state": {
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "behavioral_tests_passed": 5,
+      "governance_refinements": 7
+    },
+    "adopted_refinements": [
+      "Contradiction Resolution Status",
+      "Dependency Review Status",
+      "Repository Stability Index"
+    ],
+    "observations": [
+      "Repository preserves conflicting assertions without destroying history.",
+      "Conflict handling is governed through metadata and workflow.",
+      "Kernel stability continues under increased behavioral demands."
+    ],
+    "next_actions": [
+      "Execute semantic equivalence regression.",
+      "Execute repository closure preconditions."
+    ]
+  }
+}

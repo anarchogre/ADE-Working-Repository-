@@ -1,0 +1,43 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0033",
+    "title": "Viking Campaign I",
+    "status": "Recorded",
+    "engineering_state": {
+      "cycle": "Endurance E / Viking Campaign I",
+      "completed_tests": [
+        "AKS-TEST-0059",
+        "AKS-TEST-0060",
+        "AKS-TEST-0061",
+        "AKS-TEST-0062",
+        "AKS-TEST-0063",
+        "AKS-TEST-0064",
+        "AKS-TEST-0065",
+        "AKS-TEST-0066",
+        "AKS-TEST-0067",
+        "AKS-TEST-0068",
+        "AKS-TEST-0069",
+        "AKS-TEST-0070",
+        "AKS-TEST-0071",
+        "AKS-TEST-0072"
+      ],
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "adoptions": [
+      "AKS-GOV-0012 Falsification-First Validation",
+      "AKS-GOV-0013 Semantic/Governance Boundary",
+      "AKS-GOV-0014 Engineering Entropy Principle",
+      "AKS-GOV-0015 Confidence Recovery Principle"
+    ],
+    "queued": [
+      "AKS-QUEUE-0008 Engineering Culture Preservation Hypothesis"
+    ],
+    "next_actions": [
+      "Viking Campaign II",
+      "Attack governance scalability",
+      "Attack evidence provenance"
+    ]
+  }
+}

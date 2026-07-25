@@ -1,0 +1,9 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRINCIPLE-QUEUE-0003",
+    "title": "Self-Representation Principle",
+    "status": "Queued for Validation",
+    "statement": "An AKS repository shall be capable of representing its own architecture, governance, validation procedures, and operational processes using the same canonical semantic structures used for external knowledge.",
+    "validation": "Model AKS specifications, governance, tests, and architecture without special-purpose representations."
+  }
+}

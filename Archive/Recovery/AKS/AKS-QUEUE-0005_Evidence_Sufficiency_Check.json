@@ -1,0 +1,20 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0005",
+    "title": "Evidence Sufficiency Check",
+    "status": "Validation Queue",
+    "candidate": "Verify every preservation point contains the minimum evidence required for deterministic repository replay.",
+    "required_elements": [
+      "Engineering State",
+      "Observations",
+      "Decisions",
+      "Test References",
+      "Adopted Refinements",
+      "Open Questions",
+      "Next Actions"
+    ],
+    "supported_by": [
+      "AKS-TEST-0008 Repository Replay Validation"
+    ]
+  }
+}

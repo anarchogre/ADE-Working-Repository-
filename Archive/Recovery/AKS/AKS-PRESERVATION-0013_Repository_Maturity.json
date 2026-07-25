@@ -1,0 +1,13 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0013",
+    "title": "Repository Maturity Adoption",
+    "status": "Recorded",
+    "changes": [
+      "Self-Representation Principle queued.",
+      "Pattern artifact family adopted.",
+      "Repository Maturity Model adopted."
+    ],
+    "next_focus": "Execute AKS-TEST-0001 and establish the first successful semantic round-trip."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0036",
+    "title": "Necessary Complexity Snapshot",
+    "status": "Recorded",
+    "type": "Special Populated Preservation Point",
+    "engineering_state": {
+      "campaigns_completed": [
+        "Architectural Hierarchy Assault",
+        "Simplicity Challenge",
+        "Successor Challenge",
+        "Necessary Complexity"
+      ],
+      "completed_through_test": "AKS-TEST-0108",
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "high_confidence_findings": [
+      "No simpler architecture has yet demonstrated equivalent engineering properties.",
+      "Every remaining architectural layer has demonstrated a distinct engineering purpose.",
+      "Evidence-first and falsification-first validation continue to withstand direct attack.",
+      "Engineering confidence depends on continuity, provenance, and independent evidence."
+    ],
+    "active_queue": [
+      "AKS-QUEUE-0008 Engineering Culture Preservation Hypothesis",
+      "AKS-QUEUE-0009 Evidence Independence Metric",
+      "AKS-QUEUE-0010 Architectural Hierarchy Principle"
+    ],
+    "active_research": [
+      "AKS-RESEARCH-0001 Epistemic Integrity Framework Hypothesis",
+      "AKS-RESEARCH-0002 Necessary Complexity Hypothesis"
+    ],
+    "engineering_summary": {
+      "major_transition": "Focus has shifted from adding capabilities to identifying irreducible first principles.",
+      "next_campaign": "First Principles Extraction"
+    }
+  }
+}

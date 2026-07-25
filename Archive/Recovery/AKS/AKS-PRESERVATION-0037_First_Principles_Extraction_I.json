@@ -1,0 +1,25 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0037",
+    "title": "First Principles Extraction I",
+    "status": "Recorded",
+    "completed_through_test": "AKS-TEST-0116",
+    "tests": [
+      "0112",
+      "0113",
+      "0114",
+      "0115",
+      "0116"
+    ],
+    "kernel_expansions": 0,
+    "foundation_changes": 0,
+    "architectural_drift": 0,
+    "summary": [
+      "Candidate first principles continue to exhibit independent explanatory value.",
+      "Cross-domain transfer remains favorable.",
+      "Failures trace more consistently to violated principles than implementation details.",
+      "No evidence yet that architectural invariants and first principles are identical."
+    ],
+    "next_phase": "Continue adversarial distinction testing between first principles and architectural invariants."
+  }
+}

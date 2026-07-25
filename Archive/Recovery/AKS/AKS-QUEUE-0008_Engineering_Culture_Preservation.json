@@ -1,0 +1,9 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0008",
+    "title": "Engineering Culture Preservation Hypothesis",
+    "status": "Validation Queue",
+    "hypothesis": "AKS preserves reproducible engineering culture in addition to semantic knowledge.",
+    "rationale": "Supported by reproducibility, replay, preservation, and civilization-collapse simulations. Requires further falsification before promotion."
+  }
+}

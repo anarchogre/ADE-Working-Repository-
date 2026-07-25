@@ -1,0 +1,33 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0017",
+    "title": "Evidence-Driven Refinement",
+    "status": "Recorded",
+    "engineering_state": {
+      "executed_tests": [
+        "AKS-TEST-0001 Execution #1 PASS",
+        "AKS-TEST-0001 Execution #2 PASS",
+        "AKS-TEST-0002 Execution #1 PASS"
+      ],
+      "kernel_changes": "None",
+      "refinements_adopted": [
+        "Relationship Classification metadata",
+        "Evidence Quality Classification metadata"
+      ]
+    },
+    "observations": [
+      "Shared concepts remained canonical across artifact families.",
+      "Relationship metadata improved expressiveness without kernel expansion.",
+      "Evidence quality can be modeled as metadata rather than a new primitive."
+    ],
+    "decisions": [
+      "Continue evidence-driven development.",
+      "Allow tests to reveal refinements.",
+      "Maintain architectural drift control."
+    ],
+    "next_actions": [
+      "Execute larger cross-artifact tests.",
+      "Begin temporal model only if empirical evidence demonstrates need."
+    ]
+  }
+}

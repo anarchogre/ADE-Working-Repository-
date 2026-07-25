@@ -1,0 +1,14 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0004",
+    "title": "Repository Replay",
+    "status": "Validation Queue",
+    "candidate": "Given preservation records, governance decisions, and canonical artifacts through any checkpoint, AKS shall reconstruct the repository state for that checkpoint with semantic fidelity.",
+    "prerequisites": [
+      "Semantic Equivalence Regression",
+      "Version Lineage Validation",
+      "Dependency Chain Validation",
+      "Semantic Conservation validation"
+    ]
+  }
+}

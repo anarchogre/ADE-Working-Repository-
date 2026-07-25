@@ -1,0 +1,17 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0007",
+    "title": "Validation Outcome Classification",
+    "status": "Validation Queue",
+    "candidate": {
+      "outcomes": [
+        "PASS",
+        "PASS WITH OBSERVATIONS",
+        "PASS WITH RECOMMENDATIONS",
+        "INCONCLUSIVE",
+        "FAIL"
+      ],
+      "reason": "Capture additional engineering nuance without changing evidence-first governance."
+    }
+  }
+}

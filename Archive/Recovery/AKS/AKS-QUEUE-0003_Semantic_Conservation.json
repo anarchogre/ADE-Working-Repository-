@@ -1,0 +1,20 @@
+{
+  "artifact": {
+    "identifier": "AKS-QUEUE-0003",
+    "title": "Semantic Conservation Principle",
+    "status": "Validation Queue",
+    "candidate_principle": "Canonical semantic information should never be destroyed by normal repository operations. Instead, it should be preserved, versioned, superseded, related, or governed while maintaining complete traceability.",
+    "supporting_evidence": [
+      "AKS-TEST-0001",
+      "AKS-TEST-0002",
+      "AKS-TEST-0003",
+      "AKS-TEST-0004"
+    ],
+    "validation_requirements": [
+      "Semantic equivalence regression",
+      "Version lineage validation",
+      "Repository closure preconditions",
+      "Scale simulation"
+    ]
+  }
+}

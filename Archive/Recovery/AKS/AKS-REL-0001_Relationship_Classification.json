@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "identifier": "AKS-REL-0001",
+    "title": "Relationship Classification",
+    "status": "Adopted",
+    "classification_attribute": {
+      "name": "relationship_class",
+      "description": "Metadata classifying the semantic role of a relationship without introducing new relationship primitives."
+    },
+    "classes": [
+      {
+        "class": "Semantic",
+        "examples": [
+          "is-a",
+          "possesses",
+          "independent-of",
+          "derives-from",
+          "supports",
+          "contradicts",
+          "references"
+        ]
+      },
+      {
+        "class": "Governance",
+        "examples": [
+          "governed-by",
+          "validated-by",
+          "tested-by",
+          "preserved-by",
+          "supersedes",
+          "approved-by"
+        ]
+      }
+    ],
+    "note": "Classification is metadata only. The underlying relationship model is unchanged."
+  }
+}

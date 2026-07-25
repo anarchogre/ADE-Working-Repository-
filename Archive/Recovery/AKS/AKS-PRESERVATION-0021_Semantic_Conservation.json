@@ -1,0 +1,26 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0021",
+    "title": "Semantic Conservation Queue and Governance",
+    "status": "Recorded",
+    "engineering_state": {
+      "behavioral_tests_passed": 5,
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "governance_refinements": 8
+    },
+    "decisions": [
+      "Semantic Conservation placed in validation queue.",
+      "Representation Revision Governance adopted.",
+      "Continue evidence-first validation before canonization."
+    ],
+    "observations": [
+      "No testing to date has required destructive repository operations.",
+      "Preservation-based evolution remains consistent across all behavioral tests."
+    ],
+    "next_actions": [
+      "Execute AKS-TEST-0005 Semantic Equivalence Regression.",
+      "Evaluate Semantic Conservation against accumulated evidence."
+    ]
+  }
+}

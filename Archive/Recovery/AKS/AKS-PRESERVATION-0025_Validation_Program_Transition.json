@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0025",
+    "title": "Validation Program Transition",
+    "status": "Recorded",
+    "engineering_state": {
+      "phase": "Validation-Driven Engineering",
+      "behavioral_tests_completed": 10,
+      "behavioral_tests_passed": 10,
+      "expected_failure_tests": 1,
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "governance_refinements": 12,
+      "queued_validation_candidates": 4,
+      "architectural_drift_events": 0
+    },
+    "adopted_governance": [
+      "Behavior-First Validation",
+      "Validation Coverage Matrix",
+      "Repository Confidence metric",
+      "Correctness/Capacity RSI"
+    ],
+    "queued_candidates": [
+      "Semantic Conservation",
+      "Repository Replay",
+      "Evidence Sufficiency Check",
+      "Validation Coverage Matrix"
+    ],
+    "observations": [
+      "The Semantic Kernel has remained unchanged throughout successive behavioral validation.",
+      "Complexity has been absorbed by governance metadata and validation workflows.",
+      "Replay, lineage, contradiction handling, and dependency analysis interact coherently."
+    ],
+    "decisions": [
+      "Advance to systematic validation rather than architectural expansion.",
+      "Measure confidence independently from specification completeness.",
+      "Continue frequent populated preservation points."
+    ],
+    "next_actions": [
+      "Execute validation coverage audit.",
+      "Stress-test replay across chained preservation points.",
+      "Attempt adversarial semantic conflict scenarios.",
+      "Prepare Gate Beta evidence dossier."
+    ]
+  }
+}

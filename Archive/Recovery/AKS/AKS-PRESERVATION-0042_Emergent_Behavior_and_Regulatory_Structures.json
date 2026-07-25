@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "identifier": "AKS-PRESERVATION-0042",
+    "title": "Emergent Behavior and Regulatory Structures",
+    "status": "Recorded",
+    "completed_through_test": "AKS-TEST-0158",
+    "tests_completed": [
+      "AKS-TEST-0154",
+      "AKS-TEST-0155",
+      "AKS-TEST-0156",
+      "AKS-TEST-0157",
+      "AKS-TEST-0158"
+    ],
+    "engineering_state": {
+      "kernel_expansions": 0,
+      "foundation_changes": 0,
+      "architectural_drift": 0
+    },
+    "governance_adopted": [
+      "AKS-GOV-0024 Automatic Preservation Principle",
+      "AKS-GOV-0025 Balancing Mechanism Principle",
+      "AKS-GOV-0026 Emergent Interaction Validation"
+    ],
+    "key_observations": [
+      "Balancing mechanisms require proportional application.",
+      "Evidence should regulate correction rather than fixed schedules.",
+      "Apparent conflicts between principles often reflect different engineering purposes.",
+      "Objective expansion differs from objective drift.",
+      "Hierarchical dependency strengthens coherence.",
+      "Regulatory structures emerge as methodologies mature."
+    ],
+    "next_campaign": "Repository Resilience Campaign"
+  }
+}

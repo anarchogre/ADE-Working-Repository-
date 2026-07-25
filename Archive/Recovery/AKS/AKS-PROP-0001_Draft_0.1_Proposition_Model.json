@@ -1,0 +1,16 @@
+{
+  "artifact": {
+    "identifier": "AKS-PROP-0001",
+    "title": "Proposition Model",
+    "version": "0.1-draft",
+    "status": "Draft",
+    "definition": "A proposition is the smallest semantically complete unit of canonical knowledge.",
+    "properties": [
+      "Truth evaluable",
+      "References concepts",
+      "May cite evidence",
+      "May participate in proofs",
+      "May be rendered by multiple artifacts"
+    ]
+  }
+}
