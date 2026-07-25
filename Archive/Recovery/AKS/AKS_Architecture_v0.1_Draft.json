@@ -1,0 +1,131 @@
+{
+  "aks_architecture_version": "0.1-draft",
+  "status": "adopted",
+  "principles": {
+    "framework_name": "Archive/Knowledge System (AKS)",
+    "first_repository": "Developmental Handbook Project (DHP)",
+    "core_principle": "AKS is a reusable knowledge-management framework. DHP is the first operational repository built on it."
+  },
+  "operating_cycle": [
+    "Acquire",
+    "Preserve",
+    "Classify",
+    "Canonicalize",
+    "Cross-reference",
+    "Analyze",
+    "Publish",
+    "Checkpoint",
+    "Repeat"
+  ],
+  "layer_model": [
+    {
+      "layer": 0,
+      "name": "Source Preservation",
+      "purpose": "Immutable preservation of original evidence.",
+      "contents": [
+        "Conversations",
+        "Documents",
+        "Notes",
+        "Exports",
+        "Photographs",
+        "External reports"
+      ],
+      "rules": [
+        "Never modify originals",
+        "Maintain provenance",
+        "Record origin"
+      ]
+    },
+    {
+      "layer": 1,
+      "name": "Canonical Objects",
+      "purpose": "Normalized evidence objects.",
+      "object_types": [
+        "Observation",
+        "Entity",
+        "Pattern",
+        "Question",
+        "Decision",
+        "Intervention",
+        "Outcome",
+        "TimelineEvent",
+        "Evidence",
+        "Conflict"
+      ]
+    },
+    {
+      "layer": 2,
+      "name": "Knowledge Graph",
+      "purpose": "Relationship network connecting canonical objects.",
+      "relationships": [
+        "supports",
+        "contradicts",
+        "raises",
+        "answered_by",
+        "references",
+        "derived_from"
+      ]
+    },
+    {
+      "layer": 3,
+      "name": "Analysis",
+      "purpose": "Reproducible analytical products derived from canonical objects.",
+      "products": [
+        "Trend analysis",
+        "Longitudinal summaries",
+        "Intervention evaluation",
+        "Development profiles"
+      ]
+    },
+    {
+      "layer": 4,
+      "name": "Publications",
+      "purpose": "Human-readable outputs derived from evidence.",
+      "products": [
+        "Handbook",
+        "Clinical summaries",
+        "Parent guides",
+        "School reports",
+        "Reference manuals",
+        "Presentations"
+      ],
+      "rule": "Publications never become primary evidence."
+    }
+  ],
+  "repositories": [
+    "Governance",
+    "Operational Manual",
+    "Source Repository",
+    "Canonical Repository",
+    "Knowledge Graph",
+    "Analysis Repository",
+    "Publication Repository",
+    "Recovery Repository"
+  ],
+  "operational_manual_outline": [
+    "Repository Philosophy",
+    "Evidence Handling",
+    "Artifact Ingestion",
+    "Classification Standards",
+    "Canonical Object Extraction",
+    "Cross-Reference Rules",
+    "Confidence Assessment",
+    "Conflict Resolution",
+    "Versioning Procedures",
+    "Publication Generation",
+    "Audit Procedures",
+    "Recovery Procedures",
+    "Quality Assurance",
+    "Baseline Freeze Procedure",
+    "Change Control",
+    "Repository Maintenance"
+  ],
+  "architectural_rules": [
+    "Evidence precedes interpretation.",
+    "Canonical objects are derived from evidence.",
+    "Analysis references canonical objects.",
+    "Publications reference evidence and analysis.",
+    "Nothing bypasses the operating cycle.",
+    "Repository architecture should remain stable unless a genuine gap is identified."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "artifact": "Engineering Method",
+  "timestamp": "2026-07-22T19:52:06.421004+00:00",
+  "epochs": [
+    "Epoch I Discovery (complete)",
+    "Epoch II Normative Specification (active)",
+    "Epoch III Conformance Review",
+    "Epoch IV CPA-0001 Publication",
+    "Epoch V Reference Implementation",
+    "Epoch VI Documentation Library"
+  ],
+  "workflow": [
+    "Preservation",
+    "Review",
+    "Production",
+    "Verification",
+    "Integration"
+  ],
+  "editorial_discipline": {
+    "expand_only_if": "necessary and non-derivable",
+    "default": "refinement over expansion"
+  }
+}

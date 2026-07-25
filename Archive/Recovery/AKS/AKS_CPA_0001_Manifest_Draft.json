@@ -1,0 +1,43 @@
+{
+  "checkpoint_id": "AKS-CPA-0001",
+  "title": "AKS Architecture Checkpoint A",
+  "status": "Active Draft Baseline",
+  "created_utc": "2026-07-22T19:35:34Z",
+  "phase": "Baseline Engineering Phase",
+  "purpose": "Canonical engineering checkpoint capturing accepted architectural foundations prior to conformance review.",
+  "governing_principles": {
+    "discovery": "Frozen by default",
+    "specification": "Active",
+    "verification": "Next major phase",
+    "implementation": "Follows verified specifications"
+  },
+  "accepted_decisions": [
+    "AKS is a domain-independent knowledge stewardship framework.",
+    "Documentation is a first-class canonical artifact.",
+    "Checkpoint packages are canonical artifacts.",
+    "Architecture Lock after CPA-0001.",
+    "Normative specification language SHALL/SHOULD/MAY adopted.",
+    "Evidence governs truth; authority governs process.",
+    "Discovery yields to disciplined refinement.",
+    "Implementation independence is required."
+  ],
+  "planned_package": [
+    "Manifest.json",
+    "Constitution.json",
+    "Architecture.json",
+    "FirstPrinciples.json",
+    "Governance.json",
+    "SpecificationDoctrines.json",
+    "CanonicalArtifactModel.json",
+    "LifecycleModel.json",
+    "ReferenceModel.json",
+    "VerificationFramework.json",
+    "ConformanceFramework.json",
+    "TraceabilityModel.json",
+    "VocabularyFramework.json",
+    "DriftFramework.json",
+    "IntegrityFramework.json",
+    "Roadmap.json"
+  ],
+  "next_objective": "Conduct CPA-0001 Conformance Review and translate foundational specifications into normative language."
+}

@@ -1,0 +1,31 @@
+{
+  "aks_forensic_parser_checkpoint": "0001",
+  "status": "initialized",
+  "mission": "Reverse parse before rewriting. Recover before creating. Preserve provenance.",
+  "governing_rules": [
+    "Observation before interpretation",
+    "No diagnosis-first approach",
+    "Do not recreate existing artifacts until absence is confirmed",
+    "Preserve superseded history"
+  ],
+  "artifact_status": {
+    "workflow": "canonical",
+    "repository_json": "pending full parse",
+    "observations": "pending extraction",
+    "relationships": "pending extraction",
+    "patterns": "pending extraction",
+    "timeline": "pending extraction",
+    "architecture": "pending extraction"
+  },
+  "first_recovered_artifact": {
+    "id": "ARCH-0001",
+    "title": "Repository/Parser Separation",
+    "status": "canonical"
+  },
+  "next_passes": [
+    "Structural Recovery",
+    "Evidence Extraction",
+    "Relationship Mining",
+    "Longitudinal Synthesis"
+  ]
+}

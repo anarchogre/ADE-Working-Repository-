@@ -1,0 +1,49 @@
+{
+  "artifact": "AKS_Phylactery_Baseline_PreFreeze",
+  "version": "0.1-working",
+  "status": "pre-freeze",
+  "workflow": {
+    "current_phase": "0.2 Library Census & Normalization",
+    "hard_stop_before": "Baseline Freeze",
+    "next_phase": "1.0 Forensic Recovery"
+  },
+  "governance": {
+    "execution_over_refinement": true,
+    "preserve_provenance": true,
+    "no_deletion_without_manifest": true,
+    "user_executes_deletions": true,
+    "baseline_required_before_parsing": true
+  },
+  "pipeline": [
+    "Inventory",
+    "Classification",
+    "Duplicate Detection",
+    "Migration Manifest",
+    "User Review",
+    "Baseline Freeze",
+    "Forensic Recovery",
+    "Curation",
+    "Publication"
+  ],
+  "artifact_roles": [
+    "RAW",
+    "WRK",
+    "CAN",
+    "PUB",
+    "ARC",
+    "CHK",
+    "SRC"
+  ],
+  "checkpoint": {
+    "completed": [
+      "Repository/Parser separation",
+      "Working adoption of AKS Phylactery",
+      "Library normalization initiated"
+    ],
+    "pending": [
+      "Complete census",
+      "Migration manifest",
+      "Baseline 1 freeze"
+    ]
+  }
+}
