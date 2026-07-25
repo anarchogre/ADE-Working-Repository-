@@ -1,0 +1,27 @@
+{
+  "id": "AKS-EDU-SYN-0001",
+  "title": "Education Architecture Synthesis",
+  "classification": {
+    "branch": "300_Education",
+    "modules": [
+      "AKS-LING",
+      "AKS-GAME",
+      "AKS-EDU",
+      "AKS-OBS",
+      "AKS-COACH"
+    ]
+  },
+  "summary": {
+    "purpose": "Teach reasoning rather than rote knowledge.",
+    "human_track": "Rowan curriculum built around interests, mysteries, discussion, and short sessions.",
+    "machine_track": "Semantic reasoning library for inference, heuristics, and structured reasoning objects."
+  },
+  "roadmap": [
+    "Semantic reasoning library",
+    "Inference detective game",
+    "Activity library",
+    "Observation framework",
+    "Adaptive scheduling",
+    "Gentle coaching engine"
+  ]
+}

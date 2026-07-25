@@ -1,0 +1,25 @@
+{
+  "id": "AKS-GOV-CP-0001",
+  "title": "Governance Candidate Principles - Inference & Linguistic Models",
+  "status": "accepted_candidate",
+  "source": "Inference and Linguistic Models conversation",
+  "principles": [
+    "Capture Before Classification",
+    "Observation Before Interpretation",
+    "Preserve Original Evidence",
+    "Repository Over Conversation",
+    "Progress Should Always Be Exportable",
+    "Reduce Friction Before Adding Features",
+    "Follow Curiosity Before Curriculum",
+    "AKS Should Be Invited, Not Endured",
+    "Evidence Before Routine",
+    "Quiet Intelligence",
+    "Human Approval Governs Repository Knowledge"
+  ],
+  "architectural_notes": [
+    "Separate machine semantic library from human curriculum.",
+    "Educational content is modular.",
+    "Adaptive schedules derive from evidence.",
+    "Coaching remains gentle and non-intrusive."
+  ]
+}
