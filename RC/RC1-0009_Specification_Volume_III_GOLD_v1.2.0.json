@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0009",
+    "canonical_object_id": "SPECVOLUME-0003",
+    "uuid": "RC1-0009-SPECVOLUME-0003",
+    "title": "Specification Volume III",
+    "object_type": "SpecificationVolume"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T22:29:41.220742+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0010"
+  },
+  "relationships": {
+    "parent": "RC1-0006",
+    "children": [],
+    "depends_on": [
+      "RC1-0006",
+      "RC1-0008"
+    ],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0006",
+      "RC1-0008"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Populate cross-volume references and computed integrity metadata at final certification."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "volume": {
+      "number": 3,
+      "purpose": "Third specification volume within the RC1 publication series.",
+      "sections": [],
+      "cross_references": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of Specification Volume III."
+  }
+}

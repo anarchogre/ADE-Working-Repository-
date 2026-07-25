@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0026",
+    "canonical_object_id": "PUBLICATION-0008",
+    "uuid": "RC1-0026-PUBLICATION-0008",
+    "title": "Repository Release Closure",
+    "object_type": "PublicationArtifact"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Published"
+  },
+  "governance": {
+    "authority": "RC1-0001 Repository Constitution",
+    "constitutional_scope": "Repository-wide",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T22:42:40.556757+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0027"
+  },
+  "relationships": {
+    "parent": "RC1-0019",
+    "children": [],
+    "depends_on": [
+      "RC1-0025"
+    ],
+    "referenced_by": []
+  },
+  "dependency_graph": {
+    "incoming": [
+      "RC1-0025"
+    ],
+    "outgoing": []
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "passed",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "queued_improvements": [
+      "Record final closure timestamp, repository digests, and complete outstanding validation evidence."
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "release_closure": {
+      "purpose": "Records completion and closure of the RC1 publication cycle.",
+      "closure_status": "Pending",
+      "closure_timestamp": null,
+      "closure_notes": []
+    }
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Initial publication of the Repository Release Closure artifact."
+  }
+}
