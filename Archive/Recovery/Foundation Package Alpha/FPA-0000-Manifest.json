@@ -1,0 +1,29 @@
+{
+  "artifact_id": "FPA-0000",
+  "artifact_name": "Foundation Package Alpha Manifest",
+  "artifact_type": "Manifest",
+  "status": "Baseline",
+  "version": "1.0.0",
+  "milestone": "M-0001",
+  "description": "Authoritative inventory of Foundation Package Alpha.",
+  "contents": [
+    "FPA-0001",
+    "FPA-0002",
+    "FPA-0003",
+    "FPA-0004"
+  ],
+  "phase": {
+    "Discovery": "Complete",
+    "Foundation": "Complete",
+    "Normative Specification": "Active"
+  },
+  "governing_principle": "Preserve before progressing.",
+  "next_artifact": "AKS-SPEC-0001",
+  "created_from": "Foundation Discovery",
+  "change_history": [
+    {
+      "version": "1.0.0",
+      "description": "Initial Foundation Package Alpha baseline."
+    }
+  ]
+}

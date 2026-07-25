@@ -1,0 +1,34 @@
+{
+  "artifact_id": "FPA-0004",
+  "artifact_name": "Production State",
+  "artifact_type": "Project State",
+  "status": "Baseline",
+  "version": "1.0.0",
+  "milestone": "M-0001",
+  "foundation_status": "Closed",
+  "current_phase": "Normative Specification",
+  "current_artifact": "AKS-SPEC-0001",
+  "completed": [
+    "Core Axioms",
+    "First Principles",
+    "Engineering Philosophy",
+    "Meta-Architecture",
+    "Boundary Statement",
+    "Development Method",
+    "Editorial Standards",
+    "Canonical Vocabulary Draft",
+    "Canonical Artifact Ontology Draft"
+  ],
+  "next_artifacts": [
+    "Relationship Ontology",
+    "Canonical Registry",
+    "Dependency Registry",
+    "Requirements Registry"
+  ],
+  "engineering_rules": [
+    "Every new specification reduces uncertainty.",
+    "Introduce the minimum number of new concepts necessary.",
+    "Leave the architecture simpler than before."
+  ],
+  "project_motto": "Baby steps. Ever forward."
+}

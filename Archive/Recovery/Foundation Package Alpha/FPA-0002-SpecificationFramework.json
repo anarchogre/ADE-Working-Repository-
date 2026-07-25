@@ -1,0 +1,41 @@
+{
+  "artifact_id": "FPA-0002",
+  "artifact_name": "Specification Framework",
+  "artifact_type": "Editorial Standard",
+  "status": "Draft",
+  "version": "0.1.0",
+  "requirement_structure": [
+    "Identifier",
+    "Requirement Statement",
+    "Rationale",
+    "Dependencies",
+    "Verification"
+  ],
+  "language_policy": {
+    "normative_keywords": [
+      "SHALL",
+      "SHALL NOT",
+      "SHOULD",
+      "SHOULD NOT",
+      "MAY",
+      "CAN"
+    ],
+    "single_requirement_per_statement": true,
+    "observable_requirements": true,
+    "no_hidden_definitions": true,
+    "no_circular_requirements": true
+  },
+  "document_layers": [
+    "Normative",
+    "Informative",
+    "Historical"
+  ],
+  "review_workflow": [
+    "Draft",
+    "Vocabulary Review",
+    "Dependency Review",
+    "Editorial Review",
+    "Conformance Review",
+    "Baseline"
+  ]
+}

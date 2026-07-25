@@ -1,0 +1,33 @@
+{
+  "artifact_id": "FPA-0001",
+  "artifact_name": "AKS Canonical Vocabulary",
+  "artifact_type": "Canonical Vocabulary",
+  "status": "Draft",
+  "version": "0.1.0",
+  "terms": [
+    "Artifact",
+    "Canonical Artifact",
+    "Identity",
+    "Provenance",
+    "Authority",
+    "Stewardship",
+    "Relationship",
+    "Lifecycle",
+    "Validation",
+    "Canonical Registry"
+  ],
+  "normative_invariants": [
+    "Exactly one canonical definition per term.",
+    "Definitions are implementation-independent.",
+    "Definitions avoid circular dependency.",
+    "Definitions change only through governance.",
+    "Specifications reference vocabulary rather than redefine it.",
+    "Deprecated terms remain historically documented."
+  ],
+  "exit_criteria": [
+    "Supports all initial specifications.",
+    "No undefined dependencies.",
+    "Editorial review complete.",
+    "Conformance review complete."
+  ]
+}
