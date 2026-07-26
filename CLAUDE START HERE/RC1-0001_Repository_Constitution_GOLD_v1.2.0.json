@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "artifact_id": "RC1-0001",
+    "canonical_object_id": "CONSTITUTION-0001",
+    "uuid": "RC1-0001-CONSTITUTION-0001",
+    "title": "Repository Constitution",
+    "object_type": "RepositoryConstitution"
+  },
+  "classification": {
+    "repository": "AKS",
+    "baseline": "CS-0001",
+    "release": "RC1",
+    "schema_version": "AKS-RC1-GOLD-1.2.0",
+    "semantic_version": "1.2.0",
+    "status": "Ratified"
+  },
+  "governance": {
+    "authority": "Self-governing constitutional document",
+    "constitutional_scope": "Repository-wide",
+    "change_control": "Constitutional Amendment Required",
+    "schema_frozen": true
+  },
+  "lifecycle": {
+    "created_utc": "2026-07-23T22:23:27.340895+00:00",
+    "phase": "Publication",
+    "state": "Published",
+    "preservation_point": "PP-0002"
+  },
+  "relationships": {
+    "parent": "RC1-0000",
+    "children": [
+      "RC1-0002",
+      "RC1-0003",
+      "RC1-0004",
+      "RC1-0005",
+      "RC1-0006",
+      "RC1-0007",
+      "RC1-0008",
+      "RC1-0009",
+      "RC1-0010",
+      "RC1-0011",
+      "RC1-0012",
+      "RC1-0013",
+      "RC1-0014",
+      "RC1-0015",
+      "RC1-0016",
+      "RC1-0017",
+      "RC1-0018",
+      "RC1-0019",
+      "RC1-0020",
+      "RC1-0021",
+      "RC1-0022",
+      "RC1-0023",
+      "RC1-0024"
+    ],
+    "depends_on": [],
+    "referenced_by": [
+      "All RC1 artifacts"
+    ]
+  },
+  "dependency_graph": {
+    "incoming": [],
+    "outgoing": [
+      "RC1-0002",
+      "RC1-0003",
+      "RC1-0004",
+      "RC1-0005",
+      "RC1-0006",
+      "RC1-0007",
+      "RC1-0008",
+      "RC1-0009",
+      "RC1-0010",
+      "RC1-0011",
+      "RC1-0012",
+      "RC1-0013",
+      "RC1-0014",
+      "RC1-0015",
+      "RC1-0016",
+      "RC1-0017",
+      "RC1-0018",
+      "RC1-0019",
+      "RC1-0020",
+      "RC1-0021",
+      "RC1-0022",
+      "RC1-0023",
+      "RC1-0024"
+    ]
+  },
+  "reverse_dependencies": [],
+  "validation": {
+    "structural": "passed",
+    "constitutional": "passed",
+    "referential": "pending",
+    "replay": "pending",
+    "publication": "passed"
+  },
+  "integrity": {
+    "immutable_after_ratification": true,
+    "digest_algorithm": "Reserved"
+  },
+  "audit": {
+    "revision": 1,
+    "change_log": [
+      "Regenerated to conform to Gold Master v1.2.0"
+    ]
+  },
+  "security": {
+    "classification": "Internal Repository",
+    "tamper_evident": true
+  },
+  "serialization": {
+    "format": "JSON",
+    "encoding": "UTF-8",
+    "inherits_schema": "RC1-0000 Gold Master v1.2.0"
+  },
+  "extensions": {},
+  "payload": {
+    "constitutional_principles": [
+      "Observation before interpretation",
+      "Evidence before conclusion",
+      "Explicit governance",
+      "Replayability",
+      "Preservation of provenance",
+      "Immutable constitutional history",
+      "Human authority remains final"
+    ]
+  },
+  "provenance": {
+    "lineage": [
+      "CS-0001",
+      "RC1"
+    ],
+    "notes": "Repository Constitution regenerated under frozen Gold Master schema."
+  }
+}

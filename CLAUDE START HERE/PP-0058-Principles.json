@@ -1,0 +1,20 @@
+{
+  "canonical_principles": [
+    "Observation before interpretation",
+    "Evidence before conclusion",
+    "Preserve provenance",
+    "Never overwrite history; supersede instead",
+    "Context is evidence",
+    "Time is evidence",
+    "Confidence is traceable, not absolute",
+    "Knowledge evolves through revision"
+  ],
+  "knowledge_lifecycle": [
+    "Observation",
+    "Repeated Observation",
+    "Pattern",
+    "Working Principle",
+    "Validated Principle",
+    "Re-evaluation"
+  ]
+}

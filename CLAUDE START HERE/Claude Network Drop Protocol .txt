@@ -1,0 +1,4 @@
+Network drop encountered. 
+
+
+Read CLAUDE_READ_ME docx. Rewrite the entire file from byte zero to completion, resolving the truncated section. Prompt me to sync. Do not explain; output the complete code file.

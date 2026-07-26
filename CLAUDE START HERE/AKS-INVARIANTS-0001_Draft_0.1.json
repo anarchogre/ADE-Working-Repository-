@@ -1,0 +1,60 @@
+{
+  "artifact_id": "AKS-INVARIANTS-0001",
+  "version": "0.1-draft",
+  "status": "Working Draft",
+  "invariants": [
+    {
+      "id": "I-001",
+      "name": "Identity Integrity",
+      "supports": [
+        "R001",
+        "R009",
+        "R016",
+        "R017",
+        "R021",
+        "R023"
+      ]
+    },
+    {
+      "id": "I-002",
+      "name": "Semantic Integrity",
+      "supports": [
+        "R013",
+        "R015",
+        "R019",
+        "R024"
+      ]
+    },
+    {
+      "id": "I-003",
+      "name": "Governance Integrity",
+      "supports": [
+        "R003",
+        "R004",
+        "R008",
+        "R022"
+      ]
+    },
+    {
+      "id": "I-004",
+      "name": "Structural Integrity",
+      "supports": [
+        "R011",
+        "R012",
+        "R018",
+        "R020"
+      ]
+    },
+    {
+      "id": "I-005",
+      "name": "Historical Integrity",
+      "supports": [
+        "R004",
+        "R005",
+        "R009",
+        "R010",
+        "R016"
+      ]
+    }
+  ]
+}

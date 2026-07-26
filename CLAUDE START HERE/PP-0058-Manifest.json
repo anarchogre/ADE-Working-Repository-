@@ -1,0 +1,8 @@
+{
+  "files": [
+    "PP-0058-MAJOR.json",
+    "PP-0058-Principles.json",
+    "PP-0058-Manifest.json"
+  ],
+  "ready_for": "Conversation JSON reverse parsing"
+}
