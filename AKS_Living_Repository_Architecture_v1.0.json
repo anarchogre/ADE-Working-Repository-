@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "principles": [
+    {
+      "id": "AP-013",
+      "name": "Understanding Evolves"
+    },
+    {
+      "id": "AP-014",
+      "name": "Time is Evidence"
+    },
+    {
+      "id": "AP-015",
+      "name": "Preserve Revision History"
+    },
+    {
+      "id": "AP-016",
+      "name": "Every Child is an Ongoing Story"
+    }
+  ],
+  "engineering_observations": [
+    {
+      "id": 368,
+      "text": "The opposite of prejudice is not agreement. It is remaining teachable."
+    },
+    {
+      "id": 369,
+      "text": "Repositories become timeless when every generation leaves explanations instead of assumptions."
+    }
+  ]
+}
