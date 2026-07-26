@@ -1,0 +1,22 @@
+{
+  "phase": "Execution Sprint 1",
+  "deliver_order": [
+    "SPEC-0003 Canonical Identifier Registry",
+    "SPEC-0004 Specification Dependency Graph",
+    "SPEC-0005 Validation Framework",
+    "SPEC-0006 Version Compatibility Framework",
+    "SPEC-1001 Canonicalization Engine",
+    "SPEC-1002 Reasoning Engine",
+    "SPEC-1003 Integrity Engine",
+    "SPEC-1004 Confidence Engine",
+    "SPEC-1005 Preservation Runtime"
+  ],
+  "definition_of_done": [
+    "Canonical JSON",
+    "Registered",
+    "Dependencies declared",
+    "Validation rules",
+    "Worked example",
+    "Adoption status"
+  ]
+}

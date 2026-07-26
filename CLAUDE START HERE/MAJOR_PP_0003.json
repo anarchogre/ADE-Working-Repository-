@@ -1,0 +1,41 @@
+{
+  "preservation_point": "MAJOR_PP_0003",
+  "title": "AKS Kernel Completion Baseline",
+  "version": "3.0",
+  "status": "ADOPTED",
+  "date": "2026-07-23",
+  "summary": "Establishes the AKS Kernel as the constitutional foundation for all future implementation.",
+  "adopts": [
+    "SPEC-0000 Constitutional Registry",
+    "SPEC-0001 Machine State Model",
+    "SPEC-0002 Error & Exception Framework",
+    "Machine Manifest",
+    "Object Constitutions (OBS,PAT,REL,ENT,CTX,ENV,TRN,BUR,GAP,QST,ALT,OUT)",
+    "Runtime Architecture",
+    "Maturity Model (L0-L3)",
+    "JSON-first implementation rule"
+  ],
+  "constitutional_rules": [
+    "Evidence before interpretation",
+    "Preserve provenance",
+    "Canonical JSON specifications are the source of architectural truth",
+    "Machine-first, applications second",
+    "Incremental implementation with early preservation",
+    "No undocumented behavior",
+    "Every adopted specification has a stable SPEC identifier"
+  ],
+  "next_execution_phase": {
+    "phase": "Kernel Finalization and Runtime Implementation",
+    "targets": [
+      "SPEC-0003",
+      "SPEC-0004",
+      "SPEC-0005",
+      "SPEC-0006",
+      "SPEC-1001",
+      "SPEC-1002",
+      "SPEC-1003",
+      "SPEC-1004",
+      "SPEC-1005"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "execution_mode": "Exhaustive Traversal",
+  "queue": [
+    {
+      "artifact": "AKS_AOS_Repository.json",
+      "status": "ACTIVE"
+    },
+    {
+      "artifact": "Latest Handbook Project Organization",
+      "status": "PENDING"
+    },
+    {
+      "artifact": "Latest Handbook Foundation Package",
+      "status": "PENDING"
+    },
+    {
+      "artifact": "Last chat before starting",
+      "status": "PENDING"
+    },
+    {
+      "artifact": "Master Conversations",
+      "status": "PENDING"
+    }
+  ],
+  "canonical_targets": [
+    "Observation Database",
+    "Strength Register",
+    "Developmental Timeline",
+    "Intervention Register",
+    "Running Questions",
+    "Knowledge Artifacts"
+  ]
+}
